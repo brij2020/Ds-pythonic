@@ -24,6 +24,9 @@ class Node(object):
             self.data = None
             self.next = None
 
+        def set_node(self, node):
+            self.next = node
+
         pass
 
 '''
@@ -169,12 +172,29 @@ class LinkedList(object):
         node = self.current_node
         prev_node = None
         while node: 
-
             prev_node = node    
             node = node.next
             if node.data == rem:
                self.remove_from_end()
                return 0
+
+
+    ''' Function for reverse the linked list '''
+    def reverse_list(self):
+        node = self.current_node
+        prev_node = None
+        while node :
+            prev_node = node
+            node = node.next
+            
+        self.current_node =  prev_node
+        node = self.current_node
+        while node :
+            print(node.data)
+            node = node.next
+
+        pass
+
 
 
     ''' function for printing linked-list '''    
@@ -191,14 +211,7 @@ def main():
     li = LinkedList()
     for i in ['mohan','sohan','sonu','bekery','jaisan','moili']:
         li.add_node(i)
-    print(li.size())
-    li.print_list()
-    li.remove_node_after('mohan')
-    li.add_node_at_end(12)
-    
-    print(li.size())
-    print('\n****************************************\n')
-    li.print_list()
+    li.reverse_list()
       
 if __name__ == '__main__':
     main()
