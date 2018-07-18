@@ -7,8 +7,9 @@
 
 '''
 
-
+import sys
 # Class For node 
+
 
 class Node(object):
     
@@ -214,19 +215,50 @@ class List(object):
                     print('the given node is last !')
                     return 0
                 pre.next = node.next
+        if found == False:    
             print('Node not found !')
         pass
+
+
+
+
+    ''' *********** Removing Node before given Node O(N) '''  
+    def remove_before(self, node_val):
+
+        if self.size()==1 or self.size() == 0 or self.current_node.data == node_val:
+            print('think about it there is node before head node ')
+            return 0
+        node = self.current_node
+        pre = None
+        found = False
+        i = 0
+        while node :
+            if i == 0 :
+                pre_node  =  None
+                i = i+1
+            else:
+                pre_node  = pre
+            pre = node 
+            node = node.next
+            if self.current_node.next.data == node_val:
+                found = True
+                self.current_node = self.current_node.next
+                return 0
+            elif node.data == node_val:
+                pre_node.next = node
+                found = True
+                return  0
+        if found == False:
+            print('node not found !')
+        pass
+
 def main():
     print('Hello Python World')
-
     li = List()
-    for val in ['Jai','Jai Singh','Ruby','Simaran']:
-        li.add_node(val)
-    li.print_list()
-    print('\n************* after operation********** \n')
-    li.remove_after_node('Simaran')
-
-    print('\n-----------------\n')
+    for nam in ['mahesh','vikash','ravi','jai','mohan']:
+        li.add_node(nam)
+    li.remove_before('Sai')
     li.print_list()
 if __name__ == '__main__':
     main()
+
