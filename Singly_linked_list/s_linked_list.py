@@ -121,7 +121,7 @@ class List(object):
                 
         pass
 
-    '''******************* function for addnig node at begning to list ***************O(1)'''
+    '''*********function for addnig node at begning to list**********O(1)'''
     def add_at_begning(self,val):
         new_node = Node()
         new_node.data = val
@@ -134,7 +134,7 @@ class List(object):
             self.current_node = new_node
         pass
 
-    ''' *************************function for deletion node from begning O(1) *****************'''
+    ''' *************function for deletion node from begning O(1) *********'''
     def remove_from_begning(self):
         if self.size() == 0:
             print('List is empty and operation can\'t perform on empty list' )
@@ -147,7 +147,7 @@ class List(object):
         
         pass    
     
-    '''***************** function for remove a perticular node  O(n)************ '''
+    '''********** function for remove a perticular node  O(n) ******** '''
     def remove(self, val):
 
         if(self.size() == 0):
@@ -195,6 +195,7 @@ class List(object):
                 pre = node 
                 node  = node.next
         pass
+
     '''************** function for delet node after given node O(N)****** '''
     def remove_after_node(self, val):
         if self.size() == 0:
@@ -210,10 +211,10 @@ class List(object):
                 found = True
                 if self.size() == 1:
                     print('single node list !')
-                    return 0
+                    break
                 if pre.next == None:
                     print('the given node is last !')
-                    return 0
+                    break
                 pre.next = node.next
         if found == False:    
             print('Node not found !')
@@ -240,25 +241,44 @@ class List(object):
                 pre_node  = pre
             pre = node 
             node = node.next
+            if node is None:
+                found = False
+                break
             if self.current_node.next.data == node_val:
                 found = True
                 self.current_node = self.current_node.next
-                return 0
+                break
             elif node.data == node_val:
                 pre_node.next = node
                 found = True
-                return  0
+                break
         if found == False:
             print('node not found !')
         pass
 
+
 def main():
-    print('Hello Python World')
+    print('\nHello Python World\n')
+    print('\n---------main function is call -----------\n')
     li = List()
-    for nam in ['mahesh','vikash','ravi','jai','mohan']:
+    for nam in ['sashi','jaiya','ruby']:
         li.add_node(nam)
-    li.remove_before('Sai')
+    li.remove_before('mohan')
+    li.add_at_begning('time')
+    li.remove('sashi')
+    li.add_node_before('time','sohil')
+    print('\n******************* \n')
     li.print_list()
+
+
+
+
+
+
+
+
+
+
 if __name__ == '__main__':
     main()
 
