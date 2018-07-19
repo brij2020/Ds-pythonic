@@ -101,9 +101,9 @@ class List(object):
     ''' *************** function for size *********** O(N) '''
     def  size(self):
         node = self.current_node
-        c=0
+        c = 0
         while node :
-            c+=1
+            c += 1
             node = node.next
         return c
 
@@ -256,7 +256,7 @@ class List(object):
             print('node not found !')
         pass
 
-    '''*************** Reverse list function ******************** '''
+    '''*************** Reverse list function O(N)******************** '''
     def reverseList(self):
         if self.size() == 0 :
             print('list is empty ')
