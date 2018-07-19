@@ -256,25 +256,36 @@ class List(object):
             print('node not found !')
         pass
 
+    '''*************** Reverse list function ******************** '''
+    def reverseList(self):
+        if self.size() == 0 :
+            print('list is empty ')
+            return 0
+        node = self.current_node
+        pre = None
+        temp = None
+        while node :
+            pre         = node
+            node        = node.next
+            pre.next    = temp
+            temp        = pre
+
+        self.current_node = pre 
+
+        pass
 
 def main():
     print('\nHello Python World\n')
     print('\n---------main function is call -----------\n')
     li = List()
-    for nam in ['sashi','jaiya','ruby']:
+    for nam in []:
         li.add_node(nam)
-    li.remove_before('mohan')
-    li.add_at_begning('time')
-    li.remove('sashi')
-    li.add_node_before('time','sohil')
-    print('\n******************* \n')
     li.print_list()
-
-
-
-
-
-
+    print('\n***********operation *****   \n')
+    print('reverse list operation')
+    li.reverseList()
+    print('\n********** after operation ***** \n')
+    li.print_list()
 
 
 
