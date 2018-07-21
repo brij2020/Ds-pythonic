@@ -6,9 +6,6 @@
 #                                             #           
 ###############################################
 
-
-print ("hello, python ! World")
-
 '''   class for creating node with two refrences having next and prev '''  
 class Node(object):
     prev = None
@@ -48,17 +45,33 @@ class Doubly_Linked_List(object):
             print(node.data)
             node  = node.prev
 
+    ''' function for size of the list '''
+    def listSize(self):
+        node  = self.current_node
+        i = 0
+        while node :
+            i+=1
+            node = node.next
+        return i
+
+    ''' function for adding new node at begning to list O(1) '''
+    def add_node_at_begning(self,val):
+        node = Node()
+        node.data = val
+        node.next = self.current_node
+        self.current_node = node
+        if self.current_node.next != None:
+            self.current_node.next.prev = self.current_node
+
+        pass    
 
 def main():
-    print('hello, world')
+    
     li = Doubly_Linked_List()
     for name in ['Ruby','C','C#','Java','Pascal','PHP']:
         li.createList(name)
 
-
-    li.printFromCurrentNode()
-    print('\n*************************\n')
-    li.PrintFromTail()
+   
 
 if  __name__ == '__main__':
     main()
