@@ -30,6 +30,22 @@ class Doubly_List(object):
 
         pass
 
+
+    def add_node_at_end(self,node_val):
+        if self.list_size() == 0:
+            self.add_node_empty_list(node_val)
+            return 0
+        node = Node()
+        node.data = node_val
+        last_node = self.tail
+        last_node.next = node
+        node.prev = last_node
+        self.tail = node
+        pass
+
+        
+        
+
     def print_list_from_head(self):
         node = self.head
         while node :
@@ -53,18 +69,22 @@ class Doubly_List(object):
             i+=1
             node = node.next
         return i    
-
+    
+     
 
 
 
 def main():
     li = Doubly_List()
 
-    li.add_node_empty_list(12)
-    li.add_node_empty_list('Ravi')
-    li.add_node_empty_list('Jack')
+    # li.add_node_empty_list(12)
+    # li.add_node_empty_list('Ravi')
+    # li.add_node_empty_list('Jack')
+    li.add_node_at_end('Brijbhan')
+    li.add_node_at_end('Jack')
     for name in ['ramesh','jaiya','beef','suman','ravi','soni','saumya']:
         li.add_node_empty_list(name)
+    
     li.print_list_from_head()
     print('\n----------second operation ------\n')
     li.print_list_from_tail()
