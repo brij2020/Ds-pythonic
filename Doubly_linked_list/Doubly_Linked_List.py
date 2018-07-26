@@ -74,6 +74,33 @@ class Doubly_List(object):
             node = node.prev
         
         pass
+    
+    
+    ''' function for adding node before given node'''
+    def add_node_before(self, node_val, val):
+        found = False
+        if self.list_size() == 0:
+            return -1
+        if self.head.data == node_val :
+            self.add_node_empty_list(val)
+            found = True
+        else :
+            node       =  Node()
+            node.data  = val
+            targate_node = self.head
+            while targate_node :
+                if targate_node.data == node_val:
+                    found = True
+                    pre_targate       = targate_node.prev
+                    node.next         = targate_node
+                    targate_node.prev = node
+                    pre_targate.next  = node
+                    node.prev         = pre_targate
+                targate_node = targate_node.next
+            if found == False:
+                print('data not found! ')
+
+        pass
 
     ''' function for size of DList O(N)'''
     def list_size(self):
@@ -90,18 +117,29 @@ class Doubly_List(object):
 
 def main():
     li = Doubly_List()
-    li.add_node_at_end('Brijbhan')
-    li.add_node_at_end('Jack')
-    for name in ['ramesh','jaiya','beef','suman','ravi','soni','saumya']:
-        li.add_node_empty_list(name)
-    
-
-    li.add_node_at_end('singh')
+    li.add_node_empty_list('Python')
+    li.add_node_before('Python','Javascript')
+    li.add_node_before('Javascript','Typescript')
+    li.add_node_before('Typescript','VBscript')
+    li.add_node_before('VBscript','Java')
+    #li.add_node_before('Python','Javascript')
+    li.add_node_before('VBscript','C++')
+    li.add_node_before('JaVa','Brijbhan')
     li.print_list_from_head()
-    print('\n----------second operation ------\n')
+    print('\n---------py seperator -------------\n')
     li.print_list_from_tail()
-    # print('\n------------check------------\n')
-    print(li.list_size())
+
+    # li.add_node_at_end('Brijbhan')
+    # li.add_node_at_end('Jack')
+    # for name in ['ramesh','jaiya','beef','suman','ravi','soni','saumya']:
+    #     li.add_node_empty_list(name)
+
+    # li.add_node_at_end('singh')
+    # li.print_list_from_head()
+    # print('\n----------second operation ------\n')
+    # li.print_list_from_tail()
+    # # print('\n------------check------------\n')
+    # print(li.list_size())
 
     
     
@@ -112,6 +150,27 @@ def main():
 
 
 
-
 if __name__ == '__main__':
     main()
+
+
+
+#####################################################
+#
+# function to be implemented 
+#   1-- Insertion 
+#       >> insert node to empty list
+#       >> insert node to the end
+#       >> insert node to begning 
+#       >> insert node before given node
+#       >> insert node after given node 
+#   2-- Print Operation 
+#       >> print entire list from head    
+#       >> print entire list from tail
+#   3-- Size of list
+#       >> Find size of list 
+#
+#
+#
+#
+#
