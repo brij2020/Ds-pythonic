@@ -18,7 +18,7 @@ class Doubly_List(object):
     tail = None
 
     ''' function for adding node to empty list '''
-    def add_node_empty_list(self, val):
+    def create_list(self, val):
         node = Node()
         node.data = val
         node.next = self.head
@@ -33,7 +33,7 @@ class Doubly_List(object):
     ''' function for adding node at end O(1)'''
     def add_node_at_end(self,node_val):
         if self.list_size() == 0:
-            self.add_node_empty_list(node_val)
+            self.create_list(node_val)
             return 0
         node = Node()
         node.data      = node_val
@@ -46,7 +46,7 @@ class Doubly_List(object):
     ''' function for adding new node at begning O(1)'''
     def add_node_at_begning(self, node_val):
         if self.list_size() == 0 :
-            self.add_node_empty_list(node_val)
+            self.create_list(node_val)
             return 0
 
         node       = Node()
@@ -82,7 +82,7 @@ class Doubly_List(object):
         if self.list_size() == 0:
             return -1
         if self.head.data == node_val :
-            self.add_node_empty_list(val)
+            self.create_list(val)
             found = True
         else :
             node       =  Node()
@@ -114,7 +114,7 @@ class Doubly_List(object):
             self.tail = node
             found = True
         else :
-            print('bug from else condition')    
+            
             targate_node = self.head
             while targate_node :
                 if targate_node.data == node_val:
@@ -160,7 +160,7 @@ def main():
     # li.add_node_at_end('Brijbhan')
     # li.add_node_at_end('Jack')
     for name in ['ramesh','kayum','gopi','suresh','jaya']:
-        li.add_node_empty_list(name)
+        li.create_list(name)
 
     # li.add_node_at_end('singh')
     # li.print_list_from_head()
@@ -169,8 +169,8 @@ def main():
     # # print('\n------------check------------\n')
     # print(li.list_size())
     li.add_node_after_given_node('jaya','Ravi')
-    li.add_node_before('Ravi','Salim')
-    
+    li.add_node_before('ravi','Salim')
+
     li.print_list_from_head()
     print('\n--second list form tail-- \n')
     li.print_list_from_tail()
