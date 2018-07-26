@@ -101,6 +101,37 @@ class Doubly_List(object):
                 print('data not found! ')
 
         pass
+    ''' function for adding node after given node'''
+    def add_node_after_given_node(self, node_val, new_node):
+        found = False
+        if self.list_size() == 0:
+            return -1
+        if  self.tail.data == node_val:
+            node = Node()
+            node.data = new_node
+            self.head.next = node 
+            node.prev = self.tail
+            self.tail = node
+            found = True
+        else :
+            print('bug from else condition')    
+            targate_node = self.head
+            while targate_node :
+                if targate_node.data == node_val:
+                    node = Node()
+                    node.data = new_node
+                    temp_node = targate_node.next
+                    targate_node.next = node
+                    node.prev = targate_node
+                    temp_node.prev = node
+                    node.next  = temp_node
+                    found  = True
+                targate_node = targate_node.next
+        if found == False:
+            print('Node not found !')
+
+    
+        pass
 
     ''' function for size of DList O(N)'''
     def list_size(self):
@@ -117,22 +148,19 @@ class Doubly_List(object):
 
 def main():
     li = Doubly_List()
-    li.add_node_empty_list('Python')
-    li.add_node_before('Python','Javascript')
-    li.add_node_before('Javascript','Typescript')
-    li.add_node_before('Typescript','VBscript')
-    li.add_node_before('VBscript','Java')
-    #li.add_node_before('Python','Javascript')
-    li.add_node_before('VBscript','C++')
-    li.add_node_before('JaVa','Brijbhan')
-    li.print_list_from_head()
-    print('\n---------py seperator -------------\n')
-    li.print_list_from_tail()
-
+    # li.add_node_empty_list('Python')
+    # li.add_node_before('Python','Javascript')
+    # li.add_node_before('Javascript','Typescript')
+    # li.add_node_before('Typescript','VBscript')
+    # li.add_node_before('VBscript','Java')
+    # #li.add_node_before('Python','Javascript')
+    # li.add_node_before('VBscript','C++')
+    # li.add_node_before('Java','Brijbhan')
+    # li.insert_node_after_given_node('Brijbhan','Chuahan')?
     # li.add_node_at_end('Brijbhan')
     # li.add_node_at_end('Jack')
-    # for name in ['ramesh','jaiya','beef','suman','ravi','soni','saumya']:
-    #     li.add_node_empty_list(name)
+    for name in ['ramesh','kayum','gopi','suresh','jaya']:
+        li.add_node_empty_list(name)
 
     # li.add_node_at_end('singh')
     # li.print_list_from_head()
@@ -140,6 +168,12 @@ def main():
     # li.print_list_from_tail()
     # # print('\n------------check------------\n')
     # print(li.list_size())
+    li.add_node_after_given_node('jaya','Ravi')
+    li.add_node_before('Ravi','Salim')
+    
+    li.print_list_from_head()
+    print('\n--second list form tail-- \n')
+    li.print_list_from_tail()
 
     
     
