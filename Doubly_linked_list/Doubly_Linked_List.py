@@ -133,6 +133,18 @@ class Doubly_List(object):
     
         pass
 
+    ''' function for finding node in list '''
+    def finde_node(self,node_val):
+
+        node = self.head
+        while node :
+            if node.data == node_val:
+                print('node found ')
+                return 0
+            node = node.next
+        print('node not found in list')    
+
+        pass
     ''' function for size of DList O(N)'''
     def list_size(self):
         node = self.head
@@ -148,17 +160,17 @@ class Doubly_List(object):
 
 def main():
     li = Doubly_List()
-    # li.add_node_empty_list('Python')
-    # li.add_node_before('Python','Javascript')
-    # li.add_node_before('Javascript','Typescript')
-    # li.add_node_before('Typescript','VBscript')
-    # li.add_node_before('VBscript','Java')
-    # #li.add_node_before('Python','Javascript')
-    # li.add_node_before('VBscript','C++')
-    # li.add_node_before('Java','Brijbhan')
-    # li.insert_node_after_given_node('Brijbhan','Chuahan')?
-    # li.add_node_at_end('Brijbhan')
-    # li.add_node_at_end('Jack')
+    li.create_list('Python')
+    li.add_node_before('Python','Javascript')
+    li.add_node_before('Javascript','Typescript')
+    li.add_node_before('Typescript','VBscript')
+    li.add_node_before('VBscript','Java')
+    li.add_node_before('Python','Javascript')
+    li.add_node_before('VBscript','C++')
+    li.add_node_before('Java','Brijbhan')
+    li.add_node_after_given_node('Brijbhan','Chuahan')
+    li.add_node_at_end('Brijbhan')
+    li.add_node_at_end('Jack')
     for name in ['ramesh','kayum','gopi','suresh','jaya']:
         li.create_list(name)
 
@@ -169,11 +181,12 @@ def main():
     # # print('\n------------check------------\n')
     # print(li.list_size())
     li.add_node_after_given_node('jaya','Ravi')
-    li.add_node_before('ravi','Salim')
-
+    li.create_list('Add')
+    li.add_node_after_given_node('Add','hello Brij')
     li.print_list_from_head()
     print('\n--second list form tail-- \n')
     li.print_list_from_tail()
+    li.finde_node('Python')
 
     
     
@@ -203,7 +216,7 @@ if __name__ == '__main__':
 #       >> print entire list from tail
 #   3-- Size of list
 #       >> Find size of list 
-#
+#   4-- Find Node in list 
 #
 #
 #
