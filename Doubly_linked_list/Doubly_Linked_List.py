@@ -159,8 +159,24 @@ class Doubly_List(object):
             self.head       = self.head.next
             self.head.prev  = None
         pass
-
-
+    
+    
+    ''' function for remove node from end '''
+    def remove_from_end(self):
+        if self.list_size == 0:
+            print('list is empty')
+            return 0
+        if self.list_size() == 1 :
+            self.head = None
+            self.tail = None
+        if self.tail.prev == self.head:
+            self.head = self.tail
+            self.tail.prev = None
+        else :
+            self.tail = self.tail.prev
+            self.tail.next = None
+        pass
+    
     ''' function for size of DList O(N)'''
     def list_size(self):
         node = self.head
@@ -208,6 +224,9 @@ def main():
     li.add_node_at_begning('Java')
     li.add_node_at_begning('Python')
     print('\n ---------------------------- \n ')
+    li.print_list_from_head()
+    li.remove_from_end()
+    print('\n---------------------------------------\n')
     li.print_list_from_head()
     
     
