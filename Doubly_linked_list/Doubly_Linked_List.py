@@ -130,8 +130,8 @@ class Doubly_List(object):
         if found == False:
             print('Node not found !')
 
-    
         pass
+
 
     ''' function for finding node in list '''
     def finde_node(self,node_val):
@@ -145,6 +145,22 @@ class Doubly_List(object):
         print('node not found in list')    
 
         pass
+
+    '''' function for removing node from begning '''
+    def remove_from_begning(self):
+        if self.list_size() == 0:
+            print('List is empty ')
+            return 0
+        if self.list_size() == 1:
+            self.head = None
+            self.tail = None
+            
+        else :
+            self.head       = self.head.next
+            self.head.prev  = None
+        pass
+
+
     ''' function for size of DList O(N)'''
     def list_size(self):
         node = self.head
@@ -154,40 +170,45 @@ class Doubly_List(object):
             node = node.next
         return i    
     
+        
      
 
 
 
 def main():
     li = Doubly_List()
-    li.create_list('Python')
-    li.add_node_before('Python','Javascript')
-    li.add_node_before('Javascript','Typescript')
-    li.add_node_before('Typescript','VBscript')
-    li.add_node_before('VBscript','Java')
-    li.add_node_before('Python','Javascript')
-    li.add_node_before('VBscript','C++')
-    li.add_node_before('Java','Brijbhan')
-    li.add_node_after_given_node('Brijbhan','Chuahan')
-    li.add_node_at_end('Brijbhan')
-    li.add_node_at_end('Jack')
-    for name in ['ramesh','kayum','gopi','suresh','jaya']:
-        li.create_list(name)
+    li.create_list('First')
+    # li.create_list('Python')
+    # li.add_node_before('Python','Javascript')
+    # li.add_node_before('Javascript','Typescript')
+    # li.add_node_before('Typescript','VBscript')
+    # li.add_node_before('VBscript','Java')
+    # li.add_node_before('Python','Javascript')
+    # li.add_node_before('VBscript','C++')
+    # li.add_node_before('Java','Brijbhan')
+    # li.add_node_after_given_node('Brijbhan','Chuahan')
+    # li.add_node_at_end('Brijbhan')
+    # li.add_node_at_end('Jack')
+    # for name in ['ramesh','kayum','gopi','suresh','jaya']:
+    #     li.create_list(name)
 
-    # li.add_node_at_end('singh')
+    # # li.add_node_at_end('singh')
+    # # li.print_list_from_head()
+    # # print('\n----------second operation ------\n')
+    # # li.print_list_from_tail()
+    # # # print('\n------------check------------\n')
+    # # print(li.list_size())
+    # li.add_node_after_given_node('jaya','Ravi')
+    # li.create_list('Add')
+    # li.add_node_after_given_node('Add','hello Brij')
     # li.print_list_from_head()
-    # print('\n----------second operation ------\n')
-    # li.print_list_from_tail()
-    # # print('\n------------check------------\n')
-    # print(li.list_size())
-    li.add_node_after_given_node('jaya','Ravi')
-    li.create_list('Add')
-    li.add_node_after_given_node('Add','hello Brij')
+    # print('\n--second list form tail-- \n')
+    li.remove_from_begning()
+    li.add_node_at_begning('C#')
+    li.add_node_at_begning('Java')
+    li.add_node_at_begning('Python')
+    print('\n ---------------------------- \n ')
     li.print_list_from_head()
-    print('\n--second list form tail-- \n')
-    li.print_list_from_tail()
-    li.finde_node('Python')
-
     
     
     pass
@@ -206,7 +227,7 @@ if __name__ == '__main__':
 #
 # function to be implemented 
 #   1-- Insertion 
-#       >> insert node to empty list
+#       >> create list
 #       >> insert node to the end
 #       >> insert node to begning 
 #       >> insert node before given node
@@ -217,7 +238,10 @@ if __name__ == '__main__':
 #   3-- Size of list
 #       >> Find size of list 
 #   4-- Find Node in list 
-#
-#
-#
-#
+#   
+#   5-- Deletion Node from list
+#       >> from begning
+#       >> from End
+#       >> bfore given node
+#       >> after given node 
+#   
