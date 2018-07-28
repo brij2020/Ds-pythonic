@@ -6,7 +6,6 @@
 #                                             #           
 ###############################################
 
-
 class Node(object):
     next = None
     prev = None
@@ -126,6 +125,7 @@ class Doubly_List(object):
                     temp_node.prev = node
                     node.next  = temp_node
                     found  = True
+                    break
                 targate_node = targate_node.next
         if found == False:
             print('Node not found !')
@@ -177,6 +177,78 @@ class Doubly_List(object):
             self.tail.next = None
         pass
     
+    ''' Helper function for remove node '''
+    def help_remove(self, node):
+        if self.list_size() == 0 or self.head.data == node  :
+            return -1
+        if self.tail.data == node:
+            if self.tail.prev == self.head :
+                self.tail.prev = None
+                self.head = self.tail
+                return 1
+            else:
+                self.tail.prev.prev.next = self.tail
+                self.tail.prev = self.tail.prev.prev
+                return 1
+        else:
+            return 0
+
+        pass
+
+
+    ''' function for removing node before given node '''
+    def remove_node_befor_node(self, node):
+        if self.help_remove(node) == 1:
+            return
+        if self.help_remove(node) == -1:
+            print('error !')   
+        found = False    
+        targate_node = self.head.next
+        while targate_node :
+            if targate_node.data == node :        
+                targate_node.prev = targate_node.prev.prev
+                targate_node.prev.next = targate_node
+                found = True
+                break
+            if targate_node.next == self.head :
+                break
+            targate_node = targate_node.next
+        
+        if found == False:
+            print('node not found')
+        
+        pass
+
+    ''' function for remove node '''
+    def remove(self, node_data):
+        found = False
+        if self.list_size() == 0:
+            print('list is empty')
+            return
+        if self.list_size() == 1 :
+            if self.head.data == node_data:
+                self.head  = None
+                self.tail  = None
+                found = True
+        elif self.head.data == node_data:
+            temp = self.head.next
+            temp.pre = None
+            self.head = temp
+        else:
+            node = self.head.next
+            while node :
+                if node.data == node_data:
+                    found = True
+                    if node is self.tail:
+                        self.tail = self.tail.prev
+                        self.tail.next = None
+                    else :                        
+                        node.next.prev = node.prev
+                        node.prev.next = node.next
+                node = node.next
+            if found == False:
+                print('node not found ')
+
     ''' function for size of DList O(N)'''
     def list_size(self):
         node = self.head
@@ -187,49 +259,18 @@ class Doubly_List(object):
         return i    
     
         
-     
-
-
+    
 
 def main():
     li = Doubly_List()
-    li.create_list('First')
-    # li.create_list('Python')
-    # li.add_node_before('Python','Javascript')
-    # li.add_node_before('Javascript','Typescript')
-    # li.add_node_before('Typescript','VBscript')
-    # li.add_node_before('VBscript','Java')
-    # li.add_node_before('Python','Javascript')
-    # li.add_node_before('VBscript','C++')
-    # li.add_node_before('Java','Brijbhan')
-    # li.add_node_after_given_node('Brijbhan','Chuahan')
-    # li.add_node_at_end('Brijbhan')
-    # li.add_node_at_end('Jack')
-    # for name in ['ramesh','kayum','gopi','suresh','jaya']:
-    #     li.create_list(name)
-
-    # # li.add_node_at_end('singh')
-    # # li.print_list_from_head()
-    # # print('\n----------second operation ------\n')
-    # # li.print_list_from_tail()
-    # # # print('\n------------check------------\n')
-    # # print(li.list_size())
-    # li.add_node_after_given_node('jaya','Ravi')
-    # li.create_list('Add')
-    # li.add_node_after_given_node('Add','hello Brij')
-    # li.print_list_from_head()
-    # print('\n--second list form tail-- \n')
-    li.remove_from_begning()
-    li.add_node_at_begning('C#')
-    li.add_node_at_begning('Java')
-    li.add_node_at_begning('Python')
-    print('\n ---------------------------- \n ')
+    li.create_list('Python')
+    for x in ['C','C#','Objective-C','Java','Android','C++']:
+        li.create_list(x)
     li.print_list_from_head()
-    li.remove_from_end()
-    print('\n---------------------------------------\n')
+    li.remove('Java')
+    li.add_node_before('Python','Java')
+    print('\n---------------\n')
     li.print_list_from_head()
-    
-    
     pass
 
 
@@ -263,4 +304,5 @@ if __name__ == '__main__':
 #       >> from End
 #       >> bfore given node
 #       >> after given node 
+#       >> remove given node
 #   
