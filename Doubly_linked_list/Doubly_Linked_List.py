@@ -248,6 +248,44 @@ class Doubly_List(object):
                 node = node.next
             if found == False:
                 print('node not found ')
+    def remove_after_given_node(self,val):
+        
+        targate = self.head
+        found = False
+        if self.list_size() == 0: 
+            print('list Empty ')
+        while targate:
+            if targate.data == val and targate is self.head:
+                found = True
+                if self.list_size() == 1:
+                    print('there is nothing next to this node') 
+                if self.head.next is self.tail:
+                    self.tail = self.head
+                    self.head.next = None
+                    
+                    break
+                else:
+                    
+                    self.head.next = self.head.next.next
+                    self.head.next.prev = self.head
+                    
+                    break        
+            elif targate.data == val:
+                found = True
+                if targate.next is self.tail:
+                    self.tail = targate
+                    targate.next = None
+                    
+                    break
+                else:
+                    targate.next = targate.next.next
+                    targate.next.prev = targate
+                    
+                    break
+            targate = targate.next
+        if found == False :
+            print('Node not found')    
+        pass         
 
     ''' function for size of DList O(N)'''
     def list_size(self):
@@ -264,18 +302,16 @@ class Doubly_List(object):
 def main():
     li = Doubly_List()
     li.create_list('Python')
-    for x in ['C','C#','Objective-C','Java','Android','C++']:
+    for x in ['C','C++']:
         li.create_list(x)
     li.print_list_from_head()
-    li.remove('Java')
-    li.add_node_before('Python','Java')
+    li.remove_after_given_node('C++')
+    li.remove_after_given_node('C++')
+    li.add_node_before('C++','Ruby')
+    print(li.list_size())
     print('\n---------------\n')
     li.print_list_from_head()
     pass
-
-
-
-
 
 
 if __name__ == '__main__':
