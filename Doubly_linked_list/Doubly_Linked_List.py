@@ -315,6 +315,7 @@ def main():
     li.add_node_at_end('R')
     li.remove('Ruby')
     li.add_node_before('C++','Python')
+    li.add_node_before('Python','.NET')
     print(li.head.data)
     print('\n---------------\n')
     li.print_list_from_head()
@@ -326,7 +327,7 @@ if __name__ == '__main__':
 
 
 
-#####################################################
+########################################################################################
 #
 # function to be implemented 
 #   1-- Insertion 
@@ -348,4 +349,6 @@ if __name__ == '__main__':
 #       >> bfore given node
 #       >> after given node 
 #       >> remove given node
-#   
+#
+#   All are done 
+#########################################################################################
