@@ -16,7 +16,7 @@ class Doubly_List(object):
     head = None
     tail = None
 
-    ''' function for adding node to empty list '''
+    ''' function for adding node to empty list O(1)'''
     def create_list(self, val):
         node = Node()
         node.data = val
@@ -75,7 +75,7 @@ class Doubly_List(object):
         pass
     
     
-    ''' function for adding node before given node'''
+    ''' function for adding node before given node O(N)'''
     def add_node_before(self, node_val, val):
         found = False
         if self.list_size() == 0:
@@ -100,7 +100,7 @@ class Doubly_List(object):
                 print('data not found! ')
 
         pass
-    ''' function for adding node after given node'''
+    ''' function for adding node after given node O(N)'''
     def add_node_after_given_node(self, node_val, new_node):
         found = False
         if self.list_size() == 0:
@@ -132,8 +132,8 @@ class Doubly_List(object):
 
         pass
 
-
-    ''' function for finding node in list '''
+  
+    ''' function for finding node in list   O(N) '''
     def finde_node(self,node_val):
 
         node = self.head
@@ -146,7 +146,7 @@ class Doubly_List(object):
 
         pass
 
-    '''' function for removing node from begning '''
+    '''' function for removing node from begning O(1)'''
     def remove_from_begning(self):
         if self.list_size() == 0:
             print('List is empty ')
@@ -161,7 +161,7 @@ class Doubly_List(object):
         pass
     
     
-    ''' function for remove node from end '''
+    ''' function for remove node from end O(1) '''
     def remove_from_end(self):
         if self.list_size == 0:
             print('list is empty')
@@ -196,7 +196,7 @@ class Doubly_List(object):
         pass
 
 
-    ''' function for removing node before given node '''
+    ''' function for removing node before given node O(N)'''
     def remove_node_befor_node(self, node):
         if self.help_remove(node) == 1:
             return
@@ -219,7 +219,7 @@ class Doubly_List(object):
         
         pass
 
-    ''' function for remove node '''
+    ''' function for remove node O(N)'''
     def remove(self, node_data):
         found = False
         if self.list_size() == 0:
@@ -248,6 +248,9 @@ class Doubly_List(object):
                 node = node.next
             if found == False:
                 print('node not found ')
+
+
+    '''function for remove node after given node O(N)'''
     def remove_after_given_node(self,val):
         
         targate = self.head
@@ -308,7 +311,11 @@ def main():
     li.remove_after_given_node('C++')
     li.remove_after_given_node('C++')
     li.add_node_before('C++','Ruby')
-    print(li.list_size())
+    li.add_node_at_begning('Javascript')
+    li.add_node_at_end('R')
+    li.remove('Ruby')
+    li.add_node_before('C++','Python')
+    print(li.head.data)
     print('\n---------------\n')
     li.print_list_from_head()
     pass
