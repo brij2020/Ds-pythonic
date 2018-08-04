@@ -40,7 +40,7 @@ class  Stack(object):
         if len(self.Stack) == 0:
             print('stack is empty')
         else :
-            print(self.Stack[-1])
+            return self.Stack[-1]
     
     def size(self):
         return len(self.Stack)
@@ -51,19 +51,16 @@ class  Stack(object):
 def main():
 
     stk = Stack()
-    for name in ['umesh','rajesh','gopal','sunny']:
-        stk.push(name)
-    stk.push(12)
-    stk.push(10)
+    stk.push('C#')
+    stk.push('Python')
+    stk.push('Java')
+    print(stk.peek())
+    stk.push('12')
     print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
+
 
     pass
 
 if __name__ == '__main__':
     main()
+    pass 
