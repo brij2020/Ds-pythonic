@@ -1,9 +1,19 @@
- #  function to implemented 
- #  1 - Pop 
- #  2 - Push
- #  3 - Peek
- #  4 - Size
- #  5 - isEmpty
+#################################################################################
+#                                        STACK                                  #
+#                                                                               #        
+#              Basic data Type is Python Array to implement Stack Operations    #
+#                                                                               #       
+#################################################################################
+
+
+#############################################
+#            function to implemented        #   
+#  1 - Pop                                  #
+#  2 - Push                                 #   
+#  3 - Peek                                 #       
+#  4 - Size                                 #           
+#  5 - isEmpty                              #                       
+#############################################
 
 
 class  Stack(object):
@@ -31,6 +41,9 @@ class  Stack(object):
             print('stack is empty')
         else :
             print(self.Stack[-1])
+    
+    def size(self):
+        return len(self.Stack)
 
     pass
 
@@ -49,7 +62,7 @@ def main():
     print(stk.pop())
     print(stk.pop())
     print(stk.pop())
-    
+
     pass
 
 if __name__ == '__main__':
