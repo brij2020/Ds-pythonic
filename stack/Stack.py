@@ -24,7 +24,7 @@ class  Stack(object):
     def isEmpty(self):
         return  True if len(self.Stack) == 0 else False
 
-
+    '''@symbol'''
     def push(self,data):
         self.Stack.append(data)
     
@@ -35,7 +35,7 @@ class  Stack(object):
             data  = self.Stack[-1]
             del self.Stack[-1]
             return data
-            
+        
     def peek(self):
         if len(self.Stack) == 0:
             print('stack is empty')
@@ -56,6 +56,7 @@ def main():
     stk.push('Java')
     print(stk.peek())
     stk.push('12')
+    
     print(stk.pop())
 
 

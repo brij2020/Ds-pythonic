@@ -1,5 +1,4 @@
 
-
 class Node(object):
     data = None
     next = None
@@ -60,6 +59,7 @@ def main():
     print(stk.pop())
     print(stk.pop())
     print(stk.pop())
+    print(stk.peek())
     pass
 
 if __name__ == '__main__':
