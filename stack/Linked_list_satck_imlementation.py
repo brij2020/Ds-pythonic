@@ -1,66 +1,82 @@
-
 class Node(object):
+
     data = None
     next = None
-    pass 
+
+
 
 class Stack(object):
+    head = None
 
-    head  = None
-
-    def push(self, val) :
+    def push(self, val):
         node = Node()
         node.data = val
         node.next = self.head
         self.head = node
+
+        pass
     
-
-    def pop(self):
-        if self.head == None:
-            return None
-        elif self.head.next == None:
-            value = self.head.data
-            self.head = None
-            return value
-        else :
-            data = self.head.data
-            self.head = self.head.next
-            return data
-
-
-    def size(self):
-        node = Node()
-        counter = 0 
-        while node :
-            counter += 1
-            node = node.next
-        return counter
-
-    def isEmpty(self):
-        return True if self.size() == 0 else False  
-
     def peek(self):
         if self.size() == 0:
-            print('List is empty ')
+            return 'list is Empty'
         else :
             return self.head.data
 
-    pass    
+    def size(self):
+        node = self.head
+        counter = 0
+        while node :
+            counter+=1
+            node = node.next
+        return counter
+        
+    def pop(self):
 
+        if self.size() == 0:
+            return 'list is empty' 
+        else :
+            if self.head.next == None:
+                data = self.head.data
+                self.head = None
+                return data
+                
+            else :
+                data = self.head.data
+                self.head = self.head.next
+                return data
+
+    def peek(self):
+
+        if self.head == None:
+            return 'list'
+        else :
+            data = self.head.data
+            return data
+
+
+
+    pass
+
+            
 
 
 def main():
-
+    print('hello, world')
     stk = Stack()
-    stk.push('ravi')
-    stk.push(12)
-    stk.push('Love')
+    stk.push('Ravi')
+    stk.push('Rakesh')
+    stk.push('Mohan')
+    stk.push('Sashi')
+    stk.push('C#')
     print(stk.pop())
     print(stk.pop())
     print(stk.pop())
     print(stk.pop())
+    print(stk.pop())
+    print(stk.pop())
+
     print(stk.peek())
-    pass
+
 
 if __name__ == '__main__':
-    main()  
+    main()

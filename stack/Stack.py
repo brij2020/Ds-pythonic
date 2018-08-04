@@ -17,18 +17,19 @@
 
 
 class  Stack(object):
-
+    
     def __init__(self):
         self.Stack = []
     
     def isEmpty(self):
         return  True if len(self.Stack) == 0 else False
+    
 
-    '''@symbol'''
     def push(self,data):
         self.Stack.append(data)
     
     def pop(self):
+
         if self.isEmpty() :
            print('stack is empty')
         else :
@@ -37,6 +38,7 @@ class  Stack(object):
             return data
         
     def peek(self):
+        
         if len(self.Stack) == 0:
             print('stack is empty')
         else :
@@ -58,10 +60,13 @@ def main():
     stk.push('12')
     
     print(stk.pop())
+    print(stk.pop())
+    print(stk.pop())
+    print(stk.pop())
+    print(stk.pop())
 
 
     pass
-
 if __name__ == '__main__':
     main()
     pass 
