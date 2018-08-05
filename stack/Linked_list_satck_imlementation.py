@@ -3,8 +3,6 @@ class Node(object):
     data = None
     next = None
 
-
-
 class Stack(object):
     head = None
 
@@ -16,7 +14,7 @@ class Stack(object):
 
         pass
     
-    def peek(self):
+    def peek(self): 
         if self.size() == 0:
             return 'list is Empty'
         else :
@@ -48,12 +46,13 @@ class Stack(object):
     def peek(self):
 
         if self.head == None:
-            return 'list'
+            return 'Stack is empty '
         else :
             data = self.head.data
             return data
 
-
+    def isEmpty(self):
+        return True if self.head == None else False
 
     pass
 
@@ -70,13 +69,8 @@ def main():
     stk.push('C#')
     print(stk.pop())
     print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
-    print(stk.pop())
 
     print(stk.peek())
-
-
+    print(stk.isEmpty())
 if __name__ == '__main__':
     main()
