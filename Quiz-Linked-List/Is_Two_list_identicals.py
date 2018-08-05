@@ -68,17 +68,12 @@ def main():
     li2.create_list('govi')
     li2.create_list('ravi')
     li2.create_list('jai')
+    
     x = li1.isIdentical(li2)
         
     print(x)
     
     pass
-
-
-
-
-
-
 
 
 if __name__ == '__main__':
