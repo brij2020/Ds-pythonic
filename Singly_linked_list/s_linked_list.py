@@ -120,7 +120,7 @@ class List(object):
                 
         pass
 
-    '''*********function for addnig node at begning to list**********O(1)'''
+    '''********* function for addnig node at begning to list **********O(1)'''
     def add_at_begning(self,val):
         new_node = Node()
         new_node.data = val
@@ -133,7 +133,7 @@ class List(object):
             self.current_node = new_node
         pass
 
-    ''' *************function for deletion node from begning O(1) *********'''
+    ''' ************* function for deletion node from begning O(1) *********'''
     def remove_from_begning(self):
         if self.size() == 0:
             print('List is empty and operation can\'t perform on empty list' )
@@ -219,9 +219,6 @@ class List(object):
             print('Node not found !')
         pass
 
-
-
-
     ''' *********** Removing Node before given Node O(N) '''  
     def remove_before(self, node_val):
 
@@ -274,10 +271,7 @@ class List(object):
         pass
 
 def main():
-    
     # Test Linked List Function 
-
-
     print('\nHello Python World\n')
     print('\n---------main function is call -----------\n')
     li = List()

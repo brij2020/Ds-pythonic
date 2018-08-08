@@ -21,14 +21,14 @@ class Circular_linked_list(object):
     
     head = None
     tail = None
-
-
     def create_circular_list(self, val):
         node = Node()
 
         node.data = val
         node.next = self.head
         self.head = node
+        self.help_()
+
     def print_list(self):
         node = self.head
         while node:
@@ -36,7 +36,15 @@ class Circular_linked_list(object):
             node = node.next
         pass 
 
-    
+    def help_(self):
+        node = self.head
+        curr = self.head
+        while node :
+            if node.next == None:
+                node.next = curr
+                print('bug')
+                
+            node = node.next
     pass
 
 
@@ -47,7 +55,6 @@ def main():
     cll = Circular_linked_list()
     cll.create_circular_list('C#')
     cll.create_circular_list("Java")
-    cll.print_list()
 
 if __name__ == '__main__':
     main()
