@@ -43,7 +43,6 @@ class  List(object):
         if co == self.list_size():
             return True
         else :
-        
             return False      
         
     pass
