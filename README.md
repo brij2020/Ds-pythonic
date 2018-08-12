@@ -1,11 +1,11 @@
 # Ds-pythonic
 #LinkedList.py
- ------------------------------- Data Structure In Python ----------------------------------------
+ -------------Data Structure In Python -------
  The linked list is a dynamic data structure in which memory allocate at time of requirement and at random in memory.
   In implementation two classes one for Node creation and one for list object.
 
 
----------- Core Operation perform in singly linked list DS -----------------
+--------0 Core Operation perform in singly linked list DS ----
 Insertion :
 		> > Beginning
 		> > End

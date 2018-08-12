@@ -12,6 +12,7 @@
 """
 
 		methods to applied
+		
 		1-  insert()
 		2-  del()
 		3-  peek()
