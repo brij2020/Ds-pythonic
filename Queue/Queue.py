@@ -4,7 +4,7 @@
 #                                               #
 #                                               #
 #           QUEUE IMPLIMENTATIONS               #
-#  (LIFO ADT base data structure Linked List)   #                                #
+#  (FIFO ADT base data structure Linked List)   #                                #
 #                                               #
 #                                               #
 #                                               #
@@ -44,16 +44,23 @@ class Queue_(object):
 		pass
 
 	def del_(self):
-		if self.head == None:
-			return 0
-		delo = self.head
-		self.head = self.head.next
-		return  delo
+		node = self.head
+		prev = None
+		while node:
 
+			if node.next == None:
+				break
+			prev = node
+			node = node.next
+		prev.next = None
+		return node.data
 	def peek(self):
-		if self.head == None:
-			return
-		return self.head.data
+		node = self.head
+		while node :
+			node = node.next
+			if node.next == None:
+				break
+		return node.data
 
 	def display(self):
 
@@ -81,18 +88,11 @@ def main():
 
 	for pro in ['Ruby','C#','Python','Camel','C','Java']:
 		q.insert(pro)
-
-	q.display()
 	q.del_()
 	q.del_()
-	print('\n *********Operation ******** \n')
-	q.display()
-	q.insert('Javascript')
-	q.insert('Java')
-	print('\n***********operation********\n')
-	q.display()
-	print(q.isEmpty())
-
-
+	q.del_()
+	q.del_()
+	q.insert('Java7')
+	print(q.peek())
 if __name__ == '__main__':
 	main()
