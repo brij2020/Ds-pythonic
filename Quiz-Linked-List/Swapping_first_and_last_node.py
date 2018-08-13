@@ -25,22 +25,22 @@ class List(object):
             pass
         self.head.data = xnode.data
         xnode.data = head_data
+
+
     def swap_node_link(self):
         node = self.head
         prev = None
-
         while node :
-            prev = node
-            node = node.next
             if node.next == None:
                 break
+            prev = node
+            node = node.next
         xnode = self.head
-        self.head = prev.next
+        self.head = node
         self.head.next = xnode.next
+        xnode.next = None
         prev.next = xnode
-
-        pass
-
+        pass 
 
 
     def printList(self):
@@ -57,16 +57,19 @@ class List(object):
 def main():
     # test area
     li = List()
-    lang = ['C#','Java']
+    lang = ['C#','Java','Python','Javascript','VBScript']
     for lang in lang:
         li.createList(lang)
     li.printList()
     li.swap_node_link()
-    print('\n------------\n')
-    print(li.head.data)
-    print(li.head.next.data)
-    
-
+    print('\n--seprate operation --\n')
+    li.printList()
+    li.createList('Ruby')
+    print('\n--seprate operation --\n')
+    li.printList()
+    li.swap_node_link()
+    print('\n--seprate operation --\n')
+    li.printList()
 
 if __name__ == '__main__':
     main()

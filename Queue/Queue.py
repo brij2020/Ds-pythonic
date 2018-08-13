@@ -88,11 +88,8 @@ def main():
 
 	for pro in ['Ruby','C#','Python','Camel','C','Java']:
 		q.insert(pro)
-	q.del_()
-	q.del_()
-	q.del_()
-	q.del_()
-	q.insert('Java7')
-	print(q.peek())
+	print(q.del_())
+	print('\n front elem ',q.peek())
+	
 if __name__ == '__main__':
 	main()
