@@ -26,7 +26,22 @@ class List(object):
         self.head = node
         pass
 
-        
+    def size(self):
+        node = self.head
+        c = 0
+        while node:
+            c += 1
+            node = node.next
+        return c
+
+    def reverse(self):
+        node = self.head
+        copy = List()
+        while node:
+            copy.create_list(node.data)
+            node = node.next
+        return copy
+
     def print_list(self):
         node = self.head
         while node:

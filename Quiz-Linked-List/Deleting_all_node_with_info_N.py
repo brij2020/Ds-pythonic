@@ -23,7 +23,7 @@ def del_all(val):
 
 def main():
     li.print_list()
-    del_all(4)
+    del_all(49)
     print('\n----------------\n')
     li.print_list()
     pass
