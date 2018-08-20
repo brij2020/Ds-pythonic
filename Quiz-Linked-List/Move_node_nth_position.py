@@ -28,42 +28,36 @@ class List(object):
     def move_forward_a_node(self,info,position):
         node = self.head
         prev = None
-        xprev = None
-        pos = 0
-        node_found = None
+        find_node = None
+        n    = 0
         while node :
+            n += 1
+            if node.data == info:
+                find_node = node
+                break
             prev = node
             node = node.next
-            if self.head.data = info :
-                prev = self.head.next
-                self.head = prev
-            if node.data == info:
-                node_found = node
-                while node:
-                    pos += 1
-                    xprev = node
-                    node = node.next
-                    if node == None:
-                        return
-                    if pos == position:
-                        break
+        if find_node is None:
+            print('node not found \n')
+            return 
+        if self.size()-(n+position)>=0 :
+            while position != 0 :
+                position -= 1
+                node = node.next
 
-
-            if pos == position:
-                break
-        if position == 1:
-            prev.next = node_found.next
-            ylink = prev.next.next
-            prev.next.next = node_found
-            node_found.next = ylink
-
-        else:
-            prev.next = node_found.next
-            zrep = node.next
-            node.next = node_found
-            node_found.next = zrep
-
-            pass
+            if find_node == self.head :
+                self.head = self.head.next
+                tem = node.next
+                node.next = find_node
+                find_node.next = tem
+            else :
+                prev.next = find_node.next
+                temp = node.next
+                node.next = find_node
+                find_node.next = temp
+        else :
+            print('forwarding not possible \n')
+        pass
 
     def reverse(self):
         node = self.head
@@ -89,8 +83,7 @@ def main():
         ls.createList(z)
     ls.print_list()
     print('\n')
-    x = ls.move_forward_a_node('F',3)
-    print(x)
+    x = ls.move_forward_a_node('F',5)
     ls.print_list()
 
 

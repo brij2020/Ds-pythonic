@@ -18,7 +18,7 @@ def sort_SLL():
 
 def main():
 
-    for x in ['Ramesh','Loki','Jai','Arnab']:
+    for x in [1,0,8,1,4,6,125,45,12,30,12]:
         lis.createList(x)
     lis.print_list()
     sort_SLL()
