@@ -25,10 +25,8 @@ class List(object):
             while  x:
                 if x.data == node.data:
                     xnode.next = x.next
-                
                 xnode = x
                 x = x.next
-                
                 pass 
             node = node.next
         pass

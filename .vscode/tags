@@ -1,0 +1,259 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Circular_linked_list	../Circular_linked_lis/Circular_list.py	/^class Circular_linked_list(object):$/;"	kind:class	line:20
+Circular_list.py	../Circular_linked_lis/Circular_list.py	1;"	kind:file	line:1
+Copy_linked_list.py	../Quiz-Linked-List/Copy_linked_list.py	1;"	kind:file	line:1
+Delete_duplicate_node_in_list.py	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	1;"	kind:file	line:1
+Delete_node_info_only.py	../Quiz-Linked-List/Delete_node_info_only.py	1;"	kind:file	line:1
+Deleting_all_node_with_info_N.py	../Quiz-Linked-List/Deleting_all_node_with_info_N.py	1;"	kind:file	line:1
+Doubly_Linked_List.py	../Doubly_linked_list/Doubly_Linked_List.py	1;"	kind:file	line:1
+Doubly_List	../Doubly_linked_list/Doubly_Linked_List.py	/^class Doubly_List(object):$/;"	kind:class	line:15
+Find_max_and_min_number_in_List.py	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	1;"	kind:file	line:1
+Intersection_Of_two_List.py	../Quiz-Linked-List/Intersection_Of_two_List.py	1;"	kind:file	line:1
+Is_Two_list_identicals.py	../Quiz-Linked-List/Is_Two_list_identicals.py	1;"	kind:file	line:1
+LinkedList	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^class LinkedList(object):$/;"	kind:class	line:8
+Linked_list	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^class Linked_list(object):$/;"	kind:class	line:15
+Linked_list_satck_imlementation.py	../stack/Linked_list_satck_imlementation.py	1;"	kind:file	line:1
+List	../Quiz-Linked-List/Copy_linked_list.py	/^class List(object):$/;"	kind:class	line:8
+List	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^class List(object):$/;"	kind:class	line:8
+List	../Quiz-Linked-List/Delete_node_info_only.py	/^class List(object):$/;"	kind:class	line:13
+List	../Quiz-Linked-List/Intersection_Of_two_List.py	/^class List(object):$/;"	kind:class	line:13
+List	../Quiz-Linked-List/Is_Two_list_identicals.py	/^class  List(object):$/;"	kind:class	line:10
+List	../Quiz-Linked-List/Move_node_nth_position.py	/^class List(object):$/;"	kind:class	line:8
+List	../Quiz-Linked-List/Reverse_List.py	/^class List(object):$/;"	kind:class	line:18
+List	../Quiz-Linked-List/Singly_linked_list.py	/^class List(object):$/;"	kind:class	line:17
+List	../Quiz-Linked-List/Swap-adajcent.py	/^class List(object):$/;"	kind:class	line:16
+List	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^class List(object):$/;"	kind:class	line:7
+List	../Singly_linked_list/S_linked_list.py	/^class List(object):$/;"	kind:class	line:20
+Merge_sorted_List.py	../Quiz-Linked-List/Merge_sorted_List.py	1;"	kind:file	line:1
+Move_largest_elem_to_end.py	../Quiz-Linked-List/Move_largest_elem_to_end.py	1;"	kind:file	line:1
+Move_node_nth_position.py	../Quiz-Linked-List/Move_node_nth_position.py	1;"	kind:file	line:1
+Move_smallest_elem_to_begning.py	../Quiz-Linked-List/Move_smallest_elem_to_begning.py	1;"	kind:file	line:1
+Node	../Circular_linked_lis/Circular_list.py	/^class Node(object):$/;"	kind:class	line:15
+Node	../Doubly_linked_list/Doubly_Linked_List.py	/^class Node(object):$/;"	kind:class	line:9
+Node	../Queue/Queue.py	/^class Node(object):$/;"	kind:class	line:25
+Node	../Quiz-Linked-List/Copy_linked_list.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Quiz-Linked-List/Delete_node_info_only.py	/^class Node(object):$/;"	kind:class	line:7
+Node	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^class Node(object):$/;"	kind:class	line:4
+Node	../Quiz-Linked-List/Intersection_Of_two_List.py	/^class Node(object):$/;"	kind:class	line:6
+Node	../Quiz-Linked-List/Is_Two_list_identicals.py	/^class  Node(object):$/;"	kind:class	line:1
+Node	../Quiz-Linked-List/Move_node_nth_position.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^class  Node(object):$/;"	kind:class	line:2
+Node	../Quiz-Linked-List/Reverse_List.py	/^class Node(object):$/;"	kind:class	line:11
+Node	../Quiz-Linked-List/Singly_linked_list.py	/^class Node(object):$/;"	kind:class	line:11
+Node	../Quiz-Linked-List/Swap-adajcent.py	/^class Node(object):$/;"	kind:class	line:8
+Node	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Singly_linked_list/S_linked_list.py	/^class Node(object):$/;"	kind:class	line:13
+Node	../stack/Linked_list_satck_imlementation.py	/^class Node(object):$/;"	kind:class	line:1
+Queue.py	../Queue/Queue.py	1;"	kind:file	line:1
+Queue_	../Queue/Queue.py	/^class Queue_(object):$/;"	kind:class	line:33
+Quiz_Find_Occurences_of_elm.py	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	1;"	kind:file	line:1
+Remove_first_elem_add_at_end.py	../Quiz-Linked-List/Remove_first_elem_add_at_end.py	1;"	kind:file	line:1
+Reverse_List.py	../Quiz-Linked-List/Reverse_List.py	1;"	kind:file	line:1
+S_linked_list.py	../Singly_linked_list/S_linked_list.py	1;"	kind:file	line:1
+Showing_L2_element_accor_L1.py	../Quiz-Linked-List/Showing_L2_element_accor_L1.py	1;"	kind:file	line:1
+Singly_linked_list.py	../Quiz-Linked-List/Singly_linked_list.py	1;"	kind:file	line:1
+Sort_linked_list_bubble_sort.py	../Quiz-Linked-List/Sort_linked_list_bubble_sort.py	1;"	kind:file	line:1
+Stack	../stack/Linked_list_satck_imlementation.py	/^class Stack(object):$/;"	kind:class	line:6
+Stack	../stack/Stack_Array_Implementation.py	/^class  Stack(object):$/;"	kind:class	line:19
+Stack_Array_Implementation.py	../stack/Stack_Array_Implementation.py	1;"	kind:file	line:1
+Swap-adajcent.py	../Quiz-Linked-List/Swap-adajcent.py	1;"	kind:file	line:1
+Swapping_first_and_last_node.py	../Quiz-Linked-List/Swapping_first_and_last_node.py	1;"	kind:file	line:1
+__init__	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    def __init__(self,val, link):$/;"	kind:member	line:9
+__init__	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    def __init__(self,val,nex):$/;"	kind:member	line:4
+__init__	../stack/Stack_Array_Implementation.py	/^    def __init__(self):$/;"	kind:member	line:21
+add_after_node	../Singly_linked_list/S_linked_list.py	/^    def add_after_node(self,val,new_val):$/;"	kind:member	line:34
+add_at_begning	../Singly_linked_list/S_linked_list.py	/^    def add_at_begning(self,val):$/;"	kind:member	line:124
+add_node	../Singly_linked_list/S_linked_list.py	/^    def add_node(self,val):$/;"	kind:member	line:25
+add_node_after_given_node	../Doubly_linked_list/Doubly_Linked_List.py	/^    def add_node_after_given_node(self, node_val, new_node):$/;"	kind:member	line:104
+add_node_at_begning	../Doubly_linked_list/Doubly_Linked_List.py	/^    def add_node_at_begning(self, node_val):$/;"	kind:member	line:46
+add_node_at_end	../Doubly_linked_list/Doubly_Linked_List.py	/^    def add_node_at_end(self,node_val):$/;"	kind:member	line:33
+add_node_before	../Doubly_linked_list/Doubly_Linked_List.py	/^    def add_node_before(self, node_val, val):$/;"	kind:member	line:79
+add_node_before	../Singly_linked_list/S_linked_list.py	/^    def add_node_before(self,val,new_val):$/;"	kind:member	line:54
+add_node_end	../Singly_linked_list/S_linked_list.py	/^    def add_node_end(self, val):$/;"	kind:member	line:110
+copy	../Quiz-Linked-List/Copy_linked_list.py	/^    def copy(self):$/;"	kind:member	line:20
+createList	../Quiz-Linked-List/Copy_linked_list.py	/^    def createList(self,val):$/;"	kind:member	line:12
+createList	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    def createList(self, val):$/;"	kind:member	line:12
+createList	../Quiz-Linked-List/Delete_node_info_only.py	/^    def createList(self, val):$/;"	kind:member	line:17
+createList	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    def createList(self, val):$/;"	kind:member	line:17
+createList	../Quiz-Linked-List/Move_node_nth_position.py	/^    def createList(self, val):$/;"	kind:member	line:12
+createList	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^    def createList(self,val):$/;"	kind:member	line:12
+createList	../Quiz-Linked-List/Singly_linked_list.py	/^    def createList(self, val):$/;"	kind:member	line:21
+createList	../Quiz-Linked-List/Swap-adajcent.py	/^    def createList(self, node_val):$/;"	kind:member	line:19
+createList	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    def createList(self, node_val):$/;"	kind:member	line:10
+create_circular_list	../Circular_linked_lis/Circular_list.py	/^    def create_circular_list(self, val):$/;"	kind:member	line:24
+create_list	../Doubly_linked_list/Doubly_Linked_List.py	/^    def create_list(self, val):$/;"	kind:member	line:20
+create_list	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    def create_list(self,val):$/;"	kind:member	line:18
+create_list	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    def  create_list(self,val):$/;"	kind:member	line:13
+create_list	../Quiz-Linked-List/Reverse_List.py	/^    def create_list(self, val):$/;"	kind:member	line:21
+current_node	../Singly_linked_list/S_linked_list.py	/^    current_node = None$/;"	kind:variable	line:22
+data	../Circular_linked_lis/Circular_list.py	/^    data = None$/;"	kind:variable	line:16
+data	../Doubly_linked_list/Doubly_Linked_List.py	/^    data = None$/;"	kind:variable	line:12
+data	../Queue/Queue.py	/^	data = None$/;"	kind:variable	line:27
+data	../Quiz-Linked-List/Copy_linked_list.py	/^    data = None$/;"	kind:variable	line:2
+data	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    data = None$/;"	kind:variable	line:2
+data	../Quiz-Linked-List/Delete_node_info_only.py	/^    data = None$/;"	kind:variable	line:8
+data	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    data = None$/;"	kind:variable	line:6
+data	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    data = None$/;"	kind:variable	line:7
+data	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    data = None$/;"	kind:variable	line:3
+data	../Quiz-Linked-List/Move_node_nth_position.py	/^    data = None$/;"	kind:variable	line:2
+data	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^    data = None$/;"	kind:variable	line:4
+data	../Quiz-Linked-List/Reverse_List.py	/^    data = None$/;"	kind:variable	line:12
+data	../Quiz-Linked-List/Singly_linked_list.py	/^    data =  None$/;"	kind:variable	line:12
+data	../Quiz-Linked-List/Swap-adajcent.py	/^    data = None$/;"	kind:variable	line:10
+data	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    data = None$/;"	kind:variable	line:2
+data	../Singly_linked_list/S_linked_list.py	/^    data = None$/;"	kind:variable	line:15
+data	../stack/Linked_list_satck_imlementation.py	/^    data = None$/;"	kind:variable	line:3
+del_	../Queue/Queue.py	/^	def del_(self):$/;"	kind:member	line:46
+del_all	../Quiz-Linked-List/Deleting_all_node_with_info_N.py	/^def del_all(val):$/;"	kind:function	line:6
+del_info	../Quiz-Linked-List/Delete_node_info_only.py	/^    def del_info(self,node_info):$/;"	kind:member	line:31
+display	../Queue/Queue.py	/^	def display(self):$/;"	kind:member	line:65
+find_Occurences	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^    def find_Occurences(self, elem_value):$/;"	kind:member	line:18
+finde_node	../Doubly_linked_list/Doubly_Linked_List.py	/^    def finde_node(self,node_val):$/;"	kind:member	line:137
+foo	../Quiz-Linked-List/Move_largest_elem_to_end.py	/^def foo():$/;"	kind:function	line:10
+head	../Circular_linked_lis/Circular_list.py	/^    head = None$/;"	kind:variable	line:22
+head	../Doubly_linked_list/Doubly_Linked_List.py	/^    head = None$/;"	kind:variable	line:16
+head	../Queue/Queue.py	/^	head = None$/;"	kind:variable	line:35
+head	../Quiz-Linked-List/Copy_linked_list.py	/^    head = None$/;"	kind:variable	line:9
+head	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    head = None$/;"	kind:variable	line:9
+head	../Quiz-Linked-List/Delete_node_info_only.py	/^    head = None$/;"	kind:variable	line:14
+head	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    head = None$/;"	kind:variable	line:16
+head	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    head = None$/;"	kind:variable	line:14
+head	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    head = None$/;"	kind:variable	line:11
+head	../Quiz-Linked-List/Move_node_nth_position.py	/^    head = None$/;"	kind:variable	line:9
+head	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^    head = None$/;"	kind:variable	line:10
+head	../Quiz-Linked-List/Reverse_List.py	/^    head = None$/;"	kind:variable	line:19
+head	../Quiz-Linked-List/Singly_linked_list.py	/^    head = None$/;"	kind:variable	line:18
+head	../Quiz-Linked-List/Swap-adajcent.py	/^    head = None$/;"	kind:variable	line:17
+head	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    head = None$/;"	kind:variable	line:8
+head	../stack/Linked_list_satck_imlementation.py	/^    head = None$/;"	kind:variable	line:7
+help_	../Circular_linked_lis/Circular_list.py	/^    def help_(self):$/;"	kind:member	line:39
+help_remove	../Doubly_linked_list/Doubly_Linked_List.py	/^    def help_remove(self, node):$/;"	kind:member	line:181
+insert	../Queue/Queue.py	/^	def insert(self, val):$/;"	kind:member	line:38
+isEmpty	../Queue/Queue.py	/^	def isEmpty(self):$/;"	kind:member	line:74
+isEmpty	../stack/Linked_list_satck_imlementation.py	/^    def isEmpty(self):$/;"	kind:member	line:54
+isEmpty	../stack/Stack_Array_Implementation.py	/^    def isEmpty(self):$/;"	kind:member	line:24
+isIdentical	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    def isIdentical(self,lis):$/;"	kind:member	line:27
+l1	../Quiz-Linked-List/Showing_L2_element_accor_L1.py	/^l1 = Singly_linked_list.List()$/;"	kind:variable	line:3
+l2	../Quiz-Linked-List/Showing_L2_element_accor_L1.py	/^l2 = Singly_linked_list.List()$/;"	kind:variable	line:4
+li	../Quiz-Linked-List/Deleting_all_node_with_info_N.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:2
+li	../Quiz-Linked-List/Move_largest_elem_to_end.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:4
+li	../Quiz-Linked-List/Move_smallest_elem_to_begning.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:4
+lis	../Quiz-Linked-List/Merge_sorted_List.py	/^lis   = Singly_linked_list.List()$/;"	kind:variable	line:5
+lis	../Quiz-Linked-List/Remove_first_elem_add_at_end.py	/^lis = Singly_linked_list.List()$/;"	kind:variable	line:4
+lis	../Quiz-Linked-List/Sort_linked_list_bubble_sort.py	/^lis = Singly_linked_list.List()$/;"	kind:variable	line:3
+lis1	../Quiz-Linked-List/Merge_sorted_List.py	/^lis1 = Singly_linked_list.List()$/;"	kind:variable	line:3
+lis2	../Quiz-Linked-List/Merge_sorted_List.py	/^lis2 = Singly_linked_list.List()$/;"	kind:variable	line:4
+list_size	../Doubly_linked_list/Doubly_Linked_List.py	/^    def list_size(self):$/;"	kind:member	line:294
+list_size	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    def list_size(self):$/;"	kind:member	line:18
+main	../Circular_linked_lis/Circular_list.py	/^def main():$/;"	kind:function	line:52
+main	../Doubly_linked_list/Doubly_Linked_List.py	/^def main():$/;"	kind:function	line:305
+main	../Queue/Queue.py	/^def main():$/;"	kind:function	line:85
+main	../Quiz-Linked-List/Copy_linked_list.py	/^def main():$/;"	kind:function	line:47
+main	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^def main():$/;"	kind:function	line:43
+main	../Quiz-Linked-List/Delete_node_info_only.py	/^def main():$/;"	kind:function	line:41
+main	../Quiz-Linked-List/Deleting_all_node_with_info_N.py	/^def main():$/;"	kind:function	line:24
+main	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^def main():$/;"	kind:function	line:51
+main	../Quiz-Linked-List/Intersection_Of_two_List.py	/^def main():$/;"	kind:function	line:39
+main	../Quiz-Linked-List/Is_Two_list_identicals.py	/^def main():$/;"	kind:function	line:52
+main	../Quiz-Linked-List/Merge_sorted_List.py	/^def main():$/;"	kind:function	line:41
+main	../Quiz-Linked-List/Move_largest_elem_to_end.py	/^def main():$/;"	kind:function	line:26
+main	../Quiz-Linked-List/Move_node_nth_position.py	/^def main():$/;"	kind:function	line:80
+main	../Quiz-Linked-List/Move_smallest_elem_to_begning.py	/^def main():$/;"	kind:function	line:26
+main	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^def main():$/;"	kind:function	line:31
+main	../Quiz-Linked-List/Remove_first_elem_add_at_end.py	/^def main():$/;"	kind:function	line:20
+main	../Quiz-Linked-List/Reverse_List.py	/^def main():$/;"	kind:function	line:46
+main	../Quiz-Linked-List/Showing_L2_element_accor_L1.py	/^def main():$/;"	kind:function	line:31
+main	../Quiz-Linked-List/Sort_linked_list_bubble_sort.py	/^def main():$/;"	kind:function	line:19
+main	../Quiz-Linked-List/Swap-adajcent.py	/^def main():$/;"	kind:function	line:87
+main	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^def main():$/;"	kind:function	line:57
+main	../Singly_linked_list/S_linked_list.py	/^def main():$/;"	kind:function	line:273
+main	../stack/Linked_list_satck_imlementation.py	/^def main():$/;"	kind:function	line:62
+main	../stack/Stack_Array_Implementation.py	/^def main():$/;"	kind:function	line:53
+max	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    def max(self):$/;"	kind:member	line:38
+merge	../Quiz-Linked-List/Merge_sorted_List.py	/^def merge(lis1,lis2):$/;"	kind:function	line:8
+min	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    def min(self):$/;"	kind:member	line:25
+move_forward_a_node	../Quiz-Linked-List/Move_node_nth_position.py	/^    def move_forward_a_node(self,info,position):$/;"	kind:member	line:28
+move_smallest_elem_to_begning	../Quiz-Linked-List/Move_smallest_elem_to_begning.py	/^def move_smallest_elem_to_begning():$/;"	kind:function	line:9
+next	../Circular_linked_lis/Circular_list.py	/^    next = None$/;"	kind:variable	line:17
+next	../Doubly_linked_list/Doubly_Linked_List.py	/^    next = None$/;"	kind:variable	line:10
+next	../Queue/Queue.py	/^	next = None$/;"	kind:variable	line:28
+next	../Quiz-Linked-List/Copy_linked_list.py	/^    next = None$/;"	kind:variable	line:3
+next	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    next = None$/;"	kind:variable	line:3
+next	../Quiz-Linked-List/Delete_node_info_only.py	/^    next = None$/;"	kind:variable	line:9
+next	../Quiz-Linked-List/Find_max_and_min_number_in_List.py	/^    next = None$/;"	kind:variable	line:7
+next	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    next = None$/;"	kind:variable	line:8
+next	../Quiz-Linked-List/Is_Two_list_identicals.py	/^    next = None$/;"	kind:variable	line:2
+next	../Quiz-Linked-List/Move_node_nth_position.py	/^    next = None$/;"	kind:variable	line:3
+next	../Quiz-Linked-List/Quiz_Find_Occurences_of_elm.py	/^    next = None$/;"	kind:variable	line:5
+next	../Quiz-Linked-List/Reverse_List.py	/^    next = None$/;"	kind:variable	line:13
+next	../Quiz-Linked-List/Singly_linked_list.py	/^    next = None$/;"	kind:variable	line:13
+next	../Quiz-Linked-List/Swap-adajcent.py	/^    next = None$/;"	kind:variable	line:11
+next	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    next = None$/;"	kind:variable	line:3
+next	../Singly_linked_list/S_linked_list.py	/^    next = None$/;"	kind:variable	line:16
+next	../stack/Linked_list_satck_imlementation.py	/^    next = None$/;"	kind:variable	line:4
+peek	../Queue/Queue.py	/^	def peek(self):$/;"	kind:member	line:57
+peek	../stack/Linked_list_satck_imlementation.py	/^    def peek(self): $/;"	kind:member	line:17
+peek	../stack/Linked_list_satck_imlementation.py	/^    def peek(self):$/;"	kind:member	line:46
+peek	../stack/Stack_Array_Implementation.py	/^    def peek(self):$/;"	kind:member	line:40
+pop	../stack/Linked_list_satck_imlementation.py	/^    def pop(self):$/;"	kind:member	line:31
+pop	../stack/Stack_Array_Implementation.py	/^    def pop(self):$/;"	kind:member	line:31
+prev	../Doubly_linked_list/Doubly_Linked_List.py	/^    prev = None$/;"	kind:variable	line:11
+printList	../Quiz-Linked-List/Swap-adajcent.py	/^    def printList(self):$/;"	kind:member	line:75
+printList	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    def printList(self):$/;"	kind:member	line:46
+printNth	../Quiz-Linked-List/Showing_L2_element_accor_L1.py	/^def printNth():$/;"	kind:function	line:12
+print_list	../Circular_linked_lis/Circular_list.py	/^    def print_list(self):$/;"	kind:member	line:32
+print_list	../Quiz-Linked-List/Copy_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:41
+print_list	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    def print_list(self):$/;"	kind:member	line:36
+print_list	../Quiz-Linked-List/Delete_node_info_only.py	/^    def print_list(self):$/;"	kind:member	line:24
+print_list	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    def print_list(self):$/;"	kind:member	line:24
+print_list	../Quiz-Linked-List/Move_node_nth_position.py	/^    def print_list(self):$/;"	kind:member	line:70
+print_list	../Quiz-Linked-List/Reverse_List.py	/^    def print_list(self):$/;"	kind:member	line:36
+print_list	../Quiz-Linked-List/Singly_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:45
+print_list	../Singly_linked_list/S_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:89
+print_list_from_head	../Doubly_linked_list/Doubly_Linked_List.py	/^    def print_list_from_head(self):$/;"	kind:member	line:61
+print_list_from_tail	../Doubly_linked_list/Doubly_Linked_List.py	/^    def print_list_from_tail(self):$/;"	kind:member	line:69
+push	../stack/Linked_list_satck_imlementation.py	/^    def push(self, val):$/;"	kind:member	line:9
+push	../stack/Stack_Array_Implementation.py	/^    def push(self,data):$/;"	kind:member	line:28
+remove	../Doubly_linked_list/Doubly_Linked_List.py	/^    def remove(self, node_data):$/;"	kind:member	line:223
+remove	../Singly_linked_list/S_linked_list.py	/^    def remove(self, val):$/;"	kind:member	line:150
+remove_after_given_node	../Doubly_linked_list/Doubly_Linked_List.py	/^    def remove_after_given_node(self,val):$/;"	kind:member	line:254
+remove_after_node	../Singly_linked_list/S_linked_list.py	/^    def remove_after_node(self, val):$/;"	kind:member	line:199
+remove_before	../Singly_linked_list/S_linked_list.py	/^    def remove_before(self, node_val):$/;"	kind:member	line:223
+remove_duplication	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    def remove_duplication(self):$/;"	kind:member	line:20
+remove_first	../Quiz-Linked-List/Remove_first_elem_add_at_end.py	/^def remove_first():$/;"	kind:function	line:5
+remove_from_begning	../Doubly_linked_list/Doubly_Linked_List.py	/^    def remove_from_begning(self):$/;"	kind:member	line:150
+remove_from_begning	../Singly_linked_list/S_linked_list.py	/^    def remove_from_begning(self):$/;"	kind:member	line:137
+remove_from_end	../Doubly_linked_list/Doubly_Linked_List.py	/^    def remove_from_end(self):$/;"	kind:member	line:165
+remove_from_end	../Singly_linked_list/S_linked_list.py	/^    def remove_from_end(self):$/;"	kind:member	line:182
+remove_node_befor_node	../Doubly_linked_list/Doubly_Linked_List.py	/^    def remove_node_befor_node(self, node):$/;"	kind:member	line:200
+reverse	../Quiz-Linked-List/Move_node_nth_position.py	/^    def reverse(self):$/;"	kind:member	line:62
+reverse	../Quiz-Linked-List/Reverse_List.py	/^    def reverse(self):$/;"	kind:member	line:29
+reverse	../Quiz-Linked-List/Singly_linked_list.py	/^    def reverse(self):$/;"	kind:member	line:37
+reverseList	../Quiz-Linked-List/Copy_linked_list.py	/^    def reverseList(self):$/;"	kind:member	line:29
+reverseList	../Singly_linked_list/S_linked_list.py	/^    def reverseList(self):$/;"	kind:member	line:256
+size	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    def size(self):$/;"	kind:member	line:31
+size	../Quiz-Linked-List/Move_node_nth_position.py	/^    def size(self):$/;"	kind:member	line:20
+size	../Quiz-Linked-List/Singly_linked_list.py	/^    def size(self):$/;"	kind:member	line:29
+size	../Singly_linked_list/S_linked_list.py	/^    def  size(self):$/;"	kind:member	line:101
+size	../stack/Linked_list_satck_imlementation.py	/^    def size(self):$/;"	kind:member	line:23
+size	../stack/Stack_Array_Implementation.py	/^    def size(self):$/;"	kind:member	line:47
+sort_SLL	../Quiz-Linked-List/Merge_sorted_List.py	/^def sort_SLL(lis):$/;"	kind:function	line:26
+sort_SLL	../Quiz-Linked-List/Sort_linked_list_bubble_sort.py	/^def sort_SLL():$/;"	kind:function	line:5
+swap_by_swapping_info	../Quiz-Linked-List/Swap-adajcent.py	/^    def swap_by_swapping_info(self,node,side_node):$/;"	kind:member	line:28
+swap_by_swapping_link	../Quiz-Linked-List/Swap-adajcent.py	/^    def swap_by_swapping_link(self,val,val1):$/;"	kind:member	line:44
+swap_element	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    def swap_element(self):$/;"	kind:member	line:19
+swap_node_link	../Quiz-Linked-List/Swapping_first_and_last_node.py	/^    def swap_node_link(self):$/;"	kind:member	line:30
+tail	../Circular_linked_lis/Circular_list.py	/^    tail = None$/;"	kind:variable	line:23
+tail	../Doubly_linked_list/Doubly_Linked_List.py	/^    tail = None$/;"	kind:variable	line:17
+tail	../Quiz-Linked-List/Copy_linked_list.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Quiz-Linked-List/Delete_duplicate_node_in_list.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Quiz-Linked-List/Delete_node_info_only.py	/^    tail = None$/;"	kind:variable	line:15
+tail	../Quiz-Linked-List/Intersection_Of_two_List.py	/^    tail = None$/;"	kind:variable	line:15
+tail	../Quiz-Linked-List/Move_node_nth_position.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Quiz-Linked-List/Singly_linked_list.py	/^    tail = None$/;"	kind:variable	line:19
