@@ -19,10 +19,6 @@ def merge(lis1,lis2):
             node2 = node2.next
             pass
 
-
-
-
-
 def sort_SLL(lis):
 
     node1 = lis.head

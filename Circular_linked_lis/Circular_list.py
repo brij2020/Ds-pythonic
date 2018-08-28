@@ -43,7 +43,7 @@ class Circular_linked_list(object):
             if node.next == None:
                 node.next = curr
                 print('bug')
-                
+                 
             node = node.next
     pass
 
