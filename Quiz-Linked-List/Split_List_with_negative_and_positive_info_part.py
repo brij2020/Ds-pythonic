@@ -32,35 +32,45 @@ class List(object):
             pass
         pass
 
-    def split(self):
+    def split(self,positive_list,negative_list):
         node = self.head
-        l2   = List()
-        l3   = List()
-        positive = None 
+        i = 0
+        positive = None
         while node:
-            if node.data < 0:
-                l2.createList(node.data)
-                if node == self.head:
-                    self.head = node.next
-            else :
-                i = 0
-                if i == 0 :
-                    positive = node
-                if i == 1:
-                    positive.next = node 
-                    positive = node 
-                i += 1
-            node  = node.next
+            if node.data >=0:
+
+                if i == 0:
+                    self.head = node
+                
+                i+=1
+                positive = node
+                positive_list.createList(node.data)
+            elif node == self.head:
+                negative_list.createList(node.data)
+
+            else:
+                negative_list.createList(node.data)
+                if positive != None:
+                    positive.next = node.next
+
+            node = node.next
+
         pass
 
 
 def main():
     print('say hello')
     lis = List()
-    for x in [1,2,-2,0,-4,3]:
+    positive_list   = List()
+    negative_list   = List()
+    for x in [1,2,-2,0,-4,-3]:
         lis.createList(x)
-    lis.split()
-        
+    negative_list   = List()
+    lis.split(positive_list, negative_list)
+    positive_list.print_list()
+    print('\n')
+    negative_list.print_list()
+    print('\n')
     lis.print_list()
     pass
 if __name__ == '__main__':
