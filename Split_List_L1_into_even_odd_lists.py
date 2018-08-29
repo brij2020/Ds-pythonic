@@ -1,3 +1,12 @@
+"""
+QUIZE :
+        Split List L1 into list L2(even Numbers ) and L3(odd Numbers), L1 must not be changed 
+         
+"""
+
+
+
+
 class Node(object):
     data = None
     next = None
