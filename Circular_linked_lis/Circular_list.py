@@ -19,35 +19,32 @@ class Node(object):
 
 class Circular_linked_list(object):
     
-    head = None
-    tail = None
+    head    = None
+    tail    = None
+    check   = 0
+    """CREATE CIRCULAR LIST"""
     def create_circular_list(self, val):
         node = Node()
-
         node.data = val
         node.next = self.head
         self.head = node
-        self.help_()
+        if self.check == 0:
+            self.tail = node
+            self.check += 1 
+        self.tail.next = self.head
+        pass
 
+    """PRINT FUNCTION """    
     def print_list(self):
         node = self.head
-        while node:
+        while node :
             print(node.data)
             node = node.next
-        pass 
+            if node == self.tail:
+                print('---------one circle -----\n')
+        pass
 
-    def help_(self):
-        node = self.head
-        curr = self.head
-        while node :
-            if node.next == None:
-                node.next = curr
-                print('bug')
-                 
-            node = node.next
-    pass
-
-
+  
 
 def main():
     print('hello, world')
@@ -55,6 +52,10 @@ def main():
     cll = Circular_linked_list()
     cll.create_circular_list('C#')
     cll.create_circular_list("Java")
+    cll.create_circular_list('Python')
+    cll.create_circular_list('Nano')
+    cll.create_circular_list('JavaScript')
+    cll.print_list()
 
 if __name__ == '__main__':
     main()
