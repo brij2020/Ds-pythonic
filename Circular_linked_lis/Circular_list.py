@@ -48,7 +48,6 @@ class Circular_linked_list(object):
 
 def main():
     print('hello, world')
-
     cll = Circular_linked_list()
     cll.create_circular_list('C#')
     cll.create_circular_list("Java")
