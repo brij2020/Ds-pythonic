@@ -3,11 +3,9 @@ QUIZE:
         delete only info part of the pointed node in 
         singly linked list
 """
-
 class Node(object):
     data = None
     next = None
-
     pass
 
 class List(object):
@@ -47,8 +45,6 @@ def main():
     lis.del_info('a')
     print('some operation ')
     lis.print_list()
-
-
-    
+        
 if __name__ == '__main__':
     main()

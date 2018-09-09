@@ -1,0 +1,273 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Combine_two_lists.py	../Combine_two_lists.py	1;"	kind:file	line:1
+Copy_linked_list.py	../Copy_linked_list.py	1;"	kind:file	line:1
+Delete_duplicate_node_in_list.py	../Delete_duplicate_node_in_list.py	1;"	kind:file	line:1
+Delete_even_node.py	../Delete_even_node.py	1;"	kind:file	line:1
+Delete_node_info_only.py	../Delete_node_info_only.py	1;"	kind:file	line:1
+Deleting_all_node_with_info_N.py	../Deleting_all_node_with_info_N.py	1;"	kind:file	line:1
+Doubly_linked_list_store_number_digits_in_revers_oreder.py	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	1;"	kind:file	line:1
+Find_max_and_min_number_in_List.py	../Find_max_and_min_number_in_List.py	1;"	kind:file	line:1
+Group_list	../Is_list_contain_cycle.py	/^class Group_list(object):$/;"	kind:class	line:15
+Intersection_Of_two_List.py	../Intersection_Of_two_List.py	1;"	kind:file	line:1
+Is_Two_list_identicals.py	../Is_Two_list_identicals.py	1;"	kind:file	line:1
+Is_list_contain_cycle.py	../Is_list_contain_cycle.py	1;"	kind:file	line:1
+LinkedList	../Quiz_Find_Occurences_of_elm.py	/^class LinkedList(object):$/;"	kind:class	line:8
+Linked_list	../Find_max_and_min_number_in_List.py	/^class Linked_list(object):$/;"	kind:class	line:15
+List	../Combine_two_lists.py	/^class List(object):$/;"	kind:class	line:20
+List	../Copy_linked_list.py	/^class List(object):$/;"	kind:class	line:8
+List	../Delete_duplicate_node_in_list.py	/^class List(object):$/;"	kind:class	line:8
+List	../Delete_even_node.py	/^class List(object):$/;"	kind:class	line:10
+List	../Delete_node_info_only.py	/^class List(object):$/;"	kind:class	line:13
+List	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^class List(object):$/;"	kind:class	line:14
+List	../Intersection_Of_two_List.py	/^class List(object):$/;"	kind:class	line:13
+List	../Is_Two_list_identicals.py	/^class  List(object):$/;"	kind:class	line:10
+List	../Move_node_nth_position.py	/^class List(object):$/;"	kind:class	line:8
+List	../Reverse_List.py	/^class List(object):$/;"	kind:class	line:18
+List	../Singly_linked_list.py	/^class List(object):$/;"	kind:class	line:17
+List	../Split_List_L1_into_even_odd_lists.py	/^class List(object):$/;"	kind:class	line:17
+List	../Split_List_in_two_part_at_given_node.py	/^class List(object):$/;"	kind:class	line:14
+List	../Split_List_with_negative_and_positive_info_part.py	/^class List(object):$/;"	kind:class	line:15
+List	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^class List(object):$/;"	kind:class	line:18
+List	../Swap-adajcent.py	/^class List(object):$/;"	kind:class	line:16
+List	../Swapping_first_and_last_node.py	/^class List(object):$/;"	kind:class	line:7
+List	../Union_of_two_linked_list.py	/^class List(object):$/;"	kind:class	line:8
+Merge_sorted_List.py	../Merge_sorted_List.py	1;"	kind:file	line:1
+Move_largest_elem_to_end.py	../Move_largest_elem_to_end.py	1;"	kind:file	line:1
+Move_node_nth_position.py	../Move_node_nth_position.py	1;"	kind:file	line:1
+Move_smallest_elem_to_begning.py	../Move_smallest_elem_to_begning.py	1;"	kind:file	line:1
+Node	../Combine_two_lists.py	/^class Node(object):$/;"	kind:class	line:13
+Node	../Copy_linked_list.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Delete_duplicate_node_in_list.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Delete_even_node.py	/^class Node(object):$/;"	kind:class	line:5
+Node	../Delete_node_info_only.py	/^class Node(object):$/;"	kind:class	line:7
+Node	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^class Node(object):$/;"	kind:class	line:7
+Node	../Find_max_and_min_number_in_List.py	/^class Node(object):$/;"	kind:class	line:4
+Node	../Intersection_Of_two_List.py	/^class Node(object):$/;"	kind:class	line:6
+Node	../Is_Two_list_identicals.py	/^class  Node(object):$/;"	kind:class	line:1
+Node	../Is_list_contain_cycle.py	/^class  Node(object):$/;"	kind:class	line:9
+Node	../Move_node_nth_position.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Quiz_Find_Occurences_of_elm.py	/^class  Node(object):$/;"	kind:class	line:2
+Node	../Reverse_List.py	/^class Node(object):$/;"	kind:class	line:11
+Node	../Singly_linked_list.py	/^class Node(object):$/;"	kind:class	line:11
+Node	../Split_List_L1_into_even_odd_lists.py	/^class Node(object):$/;"	kind:class	line:10
+Node	../Split_List_in_two_part_at_given_node.py	/^class Node(object):$/;"	kind:class	line:7
+Node	../Split_List_with_negative_and_positive_info_part.py	/^class Node(object):$/;"	kind:class	line:8
+Node	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^class Node(object):$/;"	kind:class	line:11
+Node	../Swap-adajcent.py	/^class Node(object):$/;"	kind:class	line:8
+Node	../Swapping_first_and_last_node.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../Union_of_two_linked_list.py	/^class Node(object):$/;"	kind:class	line:1
+Quiz_Find_Occurences_of_elm.py	../Quiz_Find_Occurences_of_elm.py	1;"	kind:file	line:1
+Remove_first_elem_add_at_end.py	../Remove_first_elem_add_at_end.py	1;"	kind:file	line:1
+Reverse_List.py	../Reverse_List.py	1;"	kind:file	line:1
+Showing_L2_element_accor_L1.py	../Showing_L2_element_accor_L1.py	1;"	kind:file	line:1
+Singly_linked_list.py	../Singly_linked_list.py	1;"	kind:file	line:1
+Sort_linked_list_bubble_sort.py	../Sort_linked_list_bubble_sort.py	1;"	kind:file	line:1
+Split_List_L1_into_even_odd_lists.py	../Split_List_L1_into_even_odd_lists.py	1;"	kind:file	line:1
+Split_List_in_two_part_at_given_node.py	../Split_List_in_two_part_at_given_node.py	1;"	kind:file	line:1
+Split_List_with_negative_and_positive_info_part.py	../Split_List_with_negative_and_positive_info_part.py	1;"	kind:file	line:1
+Split_list_in_part_alternate_even_nodes_in_second_list.py	../Split_list_in_part_alternate_even_nodes_in_second_list.py	1;"	kind:file	line:1
+Swap-adajcent.py	../Swap-adajcent.py	1;"	kind:file	line:1
+Swapping_first_and_last_node.py	../Swapping_first_and_last_node.py	1;"	kind:file	line:1
+Union_of_two_linked_list.py	../Union_of_two_linked_list.py	1;"	kind:file	line:1
+__init__	../Find_max_and_min_number_in_List.py	/^    def __init__(self,val, link):$/;"	kind:member	line:9
+__init__	../Is_Two_list_identicals.py	/^    def __init__(self,val,nex):$/;"	kind:member	line:4
+check	../Is_list_contain_cycle.py	/^    check = 0$/;"	kind:variable	line:18
+combine	../Combine_two_lists.py	/^    def combine(list1,list2 ):$/;"	kind:member	line:48
+copy	../Copy_linked_list.py	/^    def copy(self):$/;"	kind:member	line:20
+creatList	../Delete_even_node.py	/^    def creatList(self,val):$/;"	kind:member	line:12
+createList	../Combine_two_lists.py	/^    def createList(self, val):$/;"	kind:member	line:23
+createList	../Copy_linked_list.py	/^    def createList(self,val):$/;"	kind:member	line:12
+createList	../Delete_duplicate_node_in_list.py	/^    def createList(self, val):$/;"	kind:member	line:12
+createList	../Delete_node_info_only.py	/^    def createList(self, val):$/;"	kind:member	line:17
+createList	../Intersection_Of_two_List.py	/^    def createList(self, val):$/;"	kind:member	line:17
+createList	../Move_node_nth_position.py	/^    def createList(self, val):$/;"	kind:member	line:12
+createList	../Quiz_Find_Occurences_of_elm.py	/^    def createList(self,val):$/;"	kind:member	line:12
+createList	../Singly_linked_list.py	/^    def createList(self, val):$/;"	kind:member	line:21
+createList	../Split_List_L1_into_even_odd_lists.py	/^    def createList(self, val):$/;"	kind:member	line:21
+createList	../Split_List_in_two_part_at_given_node.py	/^    def createList(self,val):$/;"	kind:member	line:18
+createList	../Split_List_with_negative_and_positive_info_part.py	/^    def createList(self, val):$/;"	kind:member	line:19
+createList	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    def createList(self, val):$/;"	kind:member	line:22
+createList	../Swap-adajcent.py	/^    def createList(self, node_val):$/;"	kind:member	line:19
+createList	../Swapping_first_and_last_node.py	/^    def createList(self, node_val):$/;"	kind:member	line:10
+createList	../Union_of_two_linked_list.py	/^    def createList(self, val):$/;"	kind:member	line:12
+create_D_list	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    def create_D_list(self, val):$/;"	kind:member	line:18
+create_cicular_list	../Is_list_contain_cycle.py	/^    def create_cicular_list(self,val):$/;"	kind:member	line:21
+create_list	../Find_max_and_min_number_in_List.py	/^    def create_list(self,val):$/;"	kind:member	line:18
+create_list	../Is_Two_list_identicals.py	/^    def  create_list(self,val):$/;"	kind:member	line:13
+create_list	../Reverse_List.py	/^    def create_list(self, val):$/;"	kind:member	line:21
+create_null_terminated_list	../Is_list_contain_cycle.py	/^    def create_null_terminated_list(self,val):$/;"	kind:member	line:33
+data	../Combine_two_lists.py	/^    data = None$/;"	kind:variable	line:14
+data	../Copy_linked_list.py	/^    data = None$/;"	kind:variable	line:2
+data	../Delete_duplicate_node_in_list.py	/^    data = None$/;"	kind:variable	line:2
+data	../Delete_even_node.py	/^    data = None$/;"	kind:variable	line:6
+data	../Delete_node_info_only.py	/^    data = None$/;"	kind:variable	line:8
+data	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    data = None$/;"	kind:variable	line:8
+data	../Find_max_and_min_number_in_List.py	/^    data = None$/;"	kind:variable	line:6
+data	../Intersection_Of_two_List.py	/^    data = None$/;"	kind:variable	line:7
+data	../Is_Two_list_identicals.py	/^    data = None$/;"	kind:variable	line:3
+data	../Is_list_contain_cycle.py	/^    data  = None$/;"	kind:variable	line:10
+data	../Move_node_nth_position.py	/^    data = None$/;"	kind:variable	line:2
+data	../Quiz_Find_Occurences_of_elm.py	/^    data = None$/;"	kind:variable	line:4
+data	../Reverse_List.py	/^    data = None$/;"	kind:variable	line:12
+data	../Singly_linked_list.py	/^    data =  None$/;"	kind:variable	line:12
+data	../Split_List_L1_into_even_odd_lists.py	/^    data = None$/;"	kind:variable	line:11
+data	../Split_List_in_two_part_at_given_node.py	/^    data = None$/;"	kind:variable	line:8
+data	../Split_List_with_negative_and_positive_info_part.py	/^    data = None$/;"	kind:variable	line:9
+data	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    data = None$/;"	kind:variable	line:12
+data	../Swap-adajcent.py	/^    data = None$/;"	kind:variable	line:10
+data	../Swapping_first_and_last_node.py	/^    data = None$/;"	kind:variable	line:2
+data	../Union_of_two_linked_list.py	/^    data = None$/;"	kind:variable	line:2
+del_all	../Deleting_all_node_with_info_N.py	/^def del_all(val):$/;"	kind:function	line:6
+del_even_node	../Delete_even_node.py	/^    def del_even_node(self):$/;"	kind:member	line:26
+del_info	../Delete_node_info_only.py	/^    def del_info(self,node_info):$/;"	kind:member	line:31
+find_Occurences	../Quiz_Find_Occurences_of_elm.py	/^    def find_Occurences(self, elem_value):$/;"	kind:member	line:18
+foo	../Move_largest_elem_to_end.py	/^def foo():$/;"	kind:function	line:10
+head	../Combine_two_lists.py	/^    head = None$/;"	kind:variable	line:21
+head	../Copy_linked_list.py	/^    head = None$/;"	kind:variable	line:9
+head	../Delete_duplicate_node_in_list.py	/^    head = None$/;"	kind:variable	line:9
+head	../Delete_even_node.py	/^    head = None$/;"	kind:variable	line:11
+head	../Delete_node_info_only.py	/^    head = None$/;"	kind:variable	line:14
+head	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    head = None$/;"	kind:variable	line:15
+head	../Find_max_and_min_number_in_List.py	/^    head = None$/;"	kind:variable	line:16
+head	../Intersection_Of_two_List.py	/^    head = None$/;"	kind:variable	line:14
+head	../Is_Two_list_identicals.py	/^    head = None$/;"	kind:variable	line:11
+head	../Is_list_contain_cycle.py	/^    head = None$/;"	kind:variable	line:17
+head	../Move_node_nth_position.py	/^    head = None$/;"	kind:variable	line:9
+head	../Quiz_Find_Occurences_of_elm.py	/^    head = None$/;"	kind:variable	line:10
+head	../Reverse_List.py	/^    head = None$/;"	kind:variable	line:19
+head	../Singly_linked_list.py	/^    head = None$/;"	kind:variable	line:18
+head	../Split_List_L1_into_even_odd_lists.py	/^    head = None$/;"	kind:variable	line:18
+head	../Split_List_in_two_part_at_given_node.py	/^    head = None$/;"	kind:variable	line:15
+head	../Split_List_with_negative_and_positive_info_part.py	/^    head = None$/;"	kind:variable	line:16
+head	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    head = None$/;"	kind:variable	line:19
+head	../Swap-adajcent.py	/^    head = None$/;"	kind:variable	line:17
+head	../Swapping_first_and_last_node.py	/^    head = None$/;"	kind:variable	line:8
+head	../Union_of_two_linked_list.py	/^    head = None$/;"	kind:variable	line:9
+intersection	../Intersection_Of_two_List.py	/^    def intersection(listA,listB):$/;"	kind:member	line:54
+isIdentical	../Is_Two_list_identicals.py	/^    def isIdentical(self,lis):$/;"	kind:member	line:27
+is_list_contain_cycle	../Is_list_contain_cycle.py	/^    def is_list_contain_cycle(self):$/;"	kind:member	line:57
+l1	../Showing_L2_element_accor_L1.py	/^l1 = Singly_linked_list.List()$/;"	kind:variable	line:3
+l2	../Showing_L2_element_accor_L1.py	/^l2 = Singly_linked_list.List()$/;"	kind:variable	line:4
+li	../Deleting_all_node_with_info_N.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:2
+li	../Move_largest_elem_to_end.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:4
+li	../Move_smallest_elem_to_begning.py	/^li = Singly_linked_list.List()$/;"	kind:variable	line:4
+lis	../Merge_sorted_List.py	/^lis   = Singly_linked_list.List()$/;"	kind:variable	line:5
+lis	../Remove_first_elem_add_at_end.py	/^lis = Singly_linked_list.List()$/;"	kind:variable	line:4
+lis	../Sort_linked_list_bubble_sort.py	/^lis = Singly_linked_list.List()$/;"	kind:variable	line:3
+lis1	../Merge_sorted_List.py	/^lis1 = Singly_linked_list.List()$/;"	kind:variable	line:3
+lis2	../Merge_sorted_List.py	/^lis2 = Singly_linked_list.List()$/;"	kind:variable	line:4
+list_size	../Is_Two_list_identicals.py	/^    def list_size(self):$/;"	kind:member	line:18
+main	../Combine_two_lists.py	/^def main():$/;"	kind:function	line:69
+main	../Copy_linked_list.py	/^def main():$/;"	kind:function	line:47
+main	../Delete_duplicate_node_in_list.py	/^def main():$/;"	kind:function	line:41
+main	../Delete_even_node.py	/^def main():$/;"	kind:function	line:42
+main	../Delete_node_info_only.py	/^def main():$/;"	kind:function	line:41
+main	../Deleting_all_node_with_info_N.py	/^def main():$/;"	kind:function	line:24
+main	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^def main():$/;"	kind:function	line:40
+main	../Find_max_and_min_number_in_List.py	/^def main():$/;"	kind:function	line:51
+main	../Intersection_Of_two_List.py	/^def main():$/;"	kind:function	line:68
+main	../Is_Two_list_identicals.py	/^def main():$/;"	kind:function	line:52
+main	../Is_list_contain_cycle.py	/^def main():$/;"	kind:function	line:73
+main	../Merge_sorted_List.py	/^def main():$/;"	kind:function	line:37
+main	../Move_largest_elem_to_end.py	/^def main():$/;"	kind:function	line:26
+main	../Move_node_nth_position.py	/^def main():$/;"	kind:function	line:80
+main	../Move_smallest_elem_to_begning.py	/^def main():$/;"	kind:function	line:26
+main	../Quiz_Find_Occurences_of_elm.py	/^def main():$/;"	kind:function	line:31
+main	../Remove_first_elem_add_at_end.py	/^def main():$/;"	kind:function	line:20
+main	../Reverse_List.py	/^def main():$/;"	kind:function	line:46
+main	../Showing_L2_element_accor_L1.py	/^def main():$/;"	kind:function	line:31
+main	../Sort_linked_list_bubble_sort.py	/^def main():$/;"	kind:function	line:19
+main	../Split_List_L1_into_even_odd_lists.py	/^def main():$/;"	kind:function	line:46
+main	../Split_List_in_two_part_at_given_node.py	/^def main():$/;"	kind:function	line:51
+main	../Split_List_with_negative_and_positive_info_part.py	/^def main():$/;"	kind:function	line:61
+main	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^def main():$/;"	kind:function	line:57
+main	../Swap-adajcent.py	/^def main():$/;"	kind:function	line:87
+main	../Swapping_first_and_last_node.py	/^def main():$/;"	kind:function	line:57
+main	../Union_of_two_linked_list.py	/^def main():$/;"	kind:function	line:64
+max	../Find_max_and_min_number_in_List.py	/^    def max(self):$/;"	kind:member	line:38
+merge	../Merge_sorted_List.py	/^def merge(lis1,lis2):$/;"	kind:function	line:8
+min	../Find_max_and_min_number_in_List.py	/^    def min(self):$/;"	kind:member	line:25
+move_forward_a_node	../Move_node_nth_position.py	/^    def move_forward_a_node(self,info,position):$/;"	kind:member	line:28
+move_smallest_elem_to_begning	../Move_smallest_elem_to_begning.py	/^def move_smallest_elem_to_begning():$/;"	kind:function	line:9
+next	../Combine_two_lists.py	/^    next = None$/;"	kind:variable	line:15
+next	../Copy_linked_list.py	/^    next = None$/;"	kind:variable	line:3
+next	../Delete_duplicate_node_in_list.py	/^    next = None$/;"	kind:variable	line:3
+next	../Delete_even_node.py	/^    next = None $/;"	kind:variable	line:7
+next	../Delete_node_info_only.py	/^    next = None$/;"	kind:variable	line:9
+next	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    next = None$/;"	kind:variable	line:9
+next	../Find_max_and_min_number_in_List.py	/^    next = None$/;"	kind:variable	line:7
+next	../Intersection_Of_two_List.py	/^    next = None$/;"	kind:variable	line:8
+next	../Is_Two_list_identicals.py	/^    next = None$/;"	kind:variable	line:2
+next	../Is_list_contain_cycle.py	/^    next  = None$/;"	kind:variable	line:11
+next	../Move_node_nth_position.py	/^    next = None$/;"	kind:variable	line:3
+next	../Quiz_Find_Occurences_of_elm.py	/^    next = None$/;"	kind:variable	line:5
+next	../Reverse_List.py	/^    next = None$/;"	kind:variable	line:13
+next	../Singly_linked_list.py	/^    next = None$/;"	kind:variable	line:13
+next	../Split_List_L1_into_even_odd_lists.py	/^    next = None$/;"	kind:variable	line:12
+next	../Split_List_in_two_part_at_given_node.py	/^    next = None$/;"	kind:variable	line:9
+next	../Split_List_with_negative_and_positive_info_part.py	/^    next = None$/;"	kind:variable	line:10
+next	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    next = None$/;"	kind:variable	line:13
+next	../Swap-adajcent.py	/^    next = None$/;"	kind:variable	line:11
+next	../Swapping_first_and_last_node.py	/^    next = None$/;"	kind:variable	line:3
+next	../Union_of_two_linked_list.py	/^    next = None$/;"	kind:variable	line:3
+prev	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    prev = None$/;"	kind:variable	line:10
+printList	../Swap-adajcent.py	/^    def printList(self):$/;"	kind:member	line:75
+printList	../Swapping_first_and_last_node.py	/^    def printList(self):$/;"	kind:member	line:46
+printNth	../Showing_L2_element_accor_L1.py	/^def printNth():$/;"	kind:function	line:12
+print_list	../Combine_two_lists.py	/^    def print_list(self):$/;"	kind:member	line:39
+print_list	../Copy_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:41
+print_list	../Delete_duplicate_node_in_list.py	/^    def print_list(self):$/;"	kind:member	line:34
+print_list	../Delete_even_node.py	/^    def print_list(self):$/;"	kind:member	line:19
+print_list	../Delete_node_info_only.py	/^    def print_list(self):$/;"	kind:member	line:24
+print_list	../Intersection_Of_two_List.py	/^    def print_list(self):$/;"	kind:member	line:24
+print_list	../Is_list_contain_cycle.py	/^    def print_list(self):$/;"	kind:member	line:41
+print_list	../Move_node_nth_position.py	/^    def print_list(self):$/;"	kind:member	line:70
+print_list	../Reverse_List.py	/^    def print_list(self):$/;"	kind:member	line:36
+print_list	../Singly_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:45
+print_list	../Split_List_L1_into_even_odd_lists.py	/^    def print_list(self):$/;"	kind:member	line:29
+print_list	../Split_List_in_two_part_at_given_node.py	/^    def print_list(self):$/;"	kind:member	line:43
+print_list	../Split_List_with_negative_and_positive_info_part.py	/^    def print_list(self):$/;"	kind:member	line:27
+print_list	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    def print_list(self):$/;"	kind:member	line:49
+print_list	../Union_of_two_linked_list.py	/^    def print_list(self):$/;"	kind:member	line:20
+print_list_from_head	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    def print_list_from_head(self):$/;"	kind:member	line:27
+print_list_from_tail	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    def print_list_from_tail(self):$/;"	kind:member	line:32
+remove_duplication	../Delete_duplicate_node_in_list.py	/^    def remove_duplication(self):$/;"	kind:member	line:20
+remove_duplication	../Intersection_Of_two_List.py	/^    def remove_duplication(self):$/;"	kind:member	line:39
+remove_duplication	../Union_of_two_linked_list.py	/^    def remove_duplication(self):$/;"	kind:member	line:35
+remove_first	../Remove_first_elem_add_at_end.py	/^def remove_first():$/;"	kind:function	line:5
+reverse	../Move_node_nth_position.py	/^    def reverse(self):$/;"	kind:member	line:62
+reverse	../Reverse_List.py	/^    def reverse(self):$/;"	kind:member	line:29
+reverse	../Singly_linked_list.py	/^    def reverse(self):$/;"	kind:member	line:37
+reverseList	../Copy_linked_list.py	/^    def reverseList(self):$/;"	kind:member	line:29
+size	../Combine_two_lists.py	/^    def size(self):$/;"	kind:member	line:31
+size	../Intersection_Of_two_List.py	/^    def size(self):$/;"	kind:member	line:31
+size	../Move_node_nth_position.py	/^    def size(self):$/;"	kind:member	line:20
+size	../Singly_linked_list.py	/^    def size(self):$/;"	kind:member	line:29
+size	../Union_of_two_linked_list.py	/^    def size(self):$/;"	kind:member	line:27
+sort_SLL	../Merge_sorted_List.py	/^def sort_SLL(lis):$/;"	kind:function	line:22
+sort_SLL	../Sort_linked_list_bubble_sort.py	/^def sort_SLL():$/;"	kind:function	line:5
+split	../Split_List_L1_into_even_odd_lists.py	/^    def split(self,lis1,lis2):$/;"	kind:member	line:36
+split	../Split_List_with_negative_and_positive_info_part.py	/^    def split(self,positive_list,negative_list):$/;"	kind:member	line:35
+split_at_node	../Split_List_in_two_part_at_given_node.py	/^    def split_at_node(self,info):$/;"	kind:member	line:26
+split_node_alternate	../Split_list_in_part_alternate_even_nodes_in_second_list.py	/^    def split_node_alternate(self):$/;"	kind:member	line:30
+swap_by_swapping_info	../Swap-adajcent.py	/^    def swap_by_swapping_info(self,node,side_node):$/;"	kind:member	line:28
+swap_by_swapping_link	../Swap-adajcent.py	/^    def swap_by_swapping_link(self,val,val1):$/;"	kind:member	line:44
+swap_element	../Swapping_first_and_last_node.py	/^    def swap_element(self):$/;"	kind:member	line:19
+swap_node_link	../Swapping_first_and_last_node.py	/^    def swap_node_link(self):$/;"	kind:member	line:30
+tail	../Copy_linked_list.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Delete_duplicate_node_in_list.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Delete_node_info_only.py	/^    tail = None$/;"	kind:variable	line:15
+tail	../Doubly_linked_list_store_number_digits_in_revers_oreder.py	/^    tail = None$/;"	kind:variable	line:16
+tail	../Intersection_Of_two_List.py	/^    tail = None$/;"	kind:variable	line:15
+tail	../Is_list_contain_cycle.py	/^    tail = None$/;"	kind:variable	line:16
+tail	../Move_node_nth_position.py	/^    tail = None$/;"	kind:variable	line:10
+tail	../Singly_linked_list.py	/^    tail = None$/;"	kind:variable	line:19
+tail	../Split_List_L1_into_even_odd_lists.py	/^    tail = None$/;"	kind:variable	line:19
+tail	../Split_List_with_negative_and_positive_info_part.py	/^    tail = None$/;"	kind:variable	line:17
+tail	../Union_of_two_linked_list.py	/^    tail = None$/;"	kind:variable	line:10
+union	../Union_of_two_linked_list.py	/^    def union(lis1,lis2):$/;"	kind:member	line:50
