@@ -11,85 +11,88 @@
 #################################################
 """
 
-		methods to applied
-		
-		1-  insert()
-		2-  del()
-		3-  peek()
-		4-  display()
-		5-  isEmpty()
+	1-  insert()
+	2-  del()
+	3-  peek()
+	4-  display()
+	5-  isEmpty()
 
 """
 
 
 class Node(object):
-
-	data = None
 	next = None
-
+	data = None
 	pass
 
-
-class Queue_(object):
-
+class Queue(object):
 	head = None
+	tail = None
 
-
-	def insert(self, val):
-
+	def insert(self,data):
 		node = Node()
-		node.data = val
+		node.data = data
 		node.next = self.head
 		self.head = node
+		if node.next == None:
+			self.tail = node 
 		pass
-
-	def del_(self):
+	
+	def delete(self):
+		if self.tail == None:
+			return None
+		data = self.tail.data
 		node = self.head
-		prev = None
 		while node:
-
-			if node.next == None:
+			if node.next.next == None:
+				self.tail = node
+				node.next = None
 				break
-			prev = node
 			node = node.next
-		prev.next = None
-		return node.data
-	def peek(self):
+		return data			
+	def qhelp(self):
 		node = self.head
+		newQ = Queue() 
 		while node :
+			newQ.insert(node.data)
 			node = node.next
-			if node.next == None:
-				break
-		return node.data
+		return newQ
+
+	
+	def peek(self):
+		if self.tail == None:
+			return None
+		return self.tail.data
 
 	def display(self):
-
-		node = self.head
+		x = self.qhelp()
+		node = x.head
 		while node:
 			print(node.data)
 			node = node.next
 		pass
 
-
 	def isEmpty(self):
-
-		if self.head == None:
+		if self.head == None :
 			return True
-		else :
+		else:
 			return False
+		pass
 
-	pass
-
+	pass 
 
 
 def main():
-	# test area
-	q = Queue_()
-
-	for pro in ['Ruby','C#','Python','Camel','C','Java']:
-		q.insert(pro)
-	print(q.del_())
-	print('\n front elem ',q.peek())
-	
+	print('hey! Programming world')
+	q1 = Queue()
+	q1.insert('Python')
+	q1.insert('Js')
+	q1.insert('Ruby')
+	q1.insert('Java')
+	print('\n------------')
+	q1.display()
+	print(q1.isEmpty())
+			
+	pass
 if __name__ == '__main__':
 	main()
