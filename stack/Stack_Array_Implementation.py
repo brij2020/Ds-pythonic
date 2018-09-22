@@ -58,7 +58,7 @@ def main():
     stk.push('Java')
     print(stk.peek())
     stk.push('12')
-    
+    print(stk.isEmpty())
     print(stk.pop())
     print(stk.pop())
     print(stk.pop())
