@@ -10,6 +10,7 @@ class Queue(object):
     Max   = 10
     counter = 0
    
+    """ insert method to add new entry in Queue """
     def insert(self,data):
         if self.rear >= self.Max:
             print('Queue Overflow')
@@ -20,16 +21,23 @@ class Queue(object):
         if self.counter == 1: 
             self.front += 1
         pass
+
+    """ Delete method to delete peek element """
     def delete(self):
         if self.front > self.rear:
             return 'queue is empty '
         self.q[self.front] = None
         self.front += 1
+
+
+    """ peek method return very first element from Queue"""
     def peek(self):
         if self.front == -1 or self.front >= self.Max:
             return None
         return self.q[self.front]
-        
+
+
+    """ Dsiplay method print all queue element"""
     def display(self):
         if self.front == -1 or self.front >= self.Max:
             return None
@@ -37,12 +45,16 @@ class Queue(object):
             for i in range(self.front,self.Max):
                 print(self.q[i])
         pass
+
+    """ isFull return Boolean """
     def isFull(self):
         if self.rear >= self.Max:
             return True
         else :
             return False
-        
+
+
+    """ isEmpty return Boolean value """
     def isEmpty(self):
         if self.rear == -1 or self.front >= self.Max :
             return True
@@ -55,6 +67,7 @@ class Queue(object):
 
 def main():
     print('hello, world')
+    """ Test case """
     q1 = Queue()
     
     q1.insert(0)
