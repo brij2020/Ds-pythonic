@@ -11,7 +11,7 @@ class Queue(object):
     q = []
     front = -1
     rear  = -1
-    Max   = 2
+    Max   = 3
     counter = 0
    
     """ insert method to add new entry in Queue """
@@ -24,7 +24,7 @@ class Queue(object):
             self.q.append(data)
             self.counter += 1
         if self.counter == 1: 
-            self.front += 1
+            self.front 
         pass
 
     """ Delete method to delete peek element """
@@ -35,6 +35,7 @@ class Queue(object):
             self.q = []
             self.counter = 0
             print('q is empty ')
+            return None
 
         elif self.front == -1 :
             print('Queue is empty ')
@@ -44,10 +45,11 @@ class Queue(object):
 
 
     """ peek method return very first element from Queue"""
-    def peek(self):
-        if self.front == -1 or self.front >= self.Max:
-            return None
-        return self.q[self.front]
+    def peek(self):    
+        if  self.rear == -1:
+            print('x Array')
+        else :
+            return self.q[self.front]
 
 
     """ Dsiplay method print all queue element"""
@@ -79,18 +81,18 @@ def main():
     print('hello, world')
     """ Test case """
     q1 = Queue()
-    print(q1.isEmpty())
-    print(q1.isFull())
-    q1.insert('Love is a shit ')
-    q1.insert('Ruvyb')
-    q1.insert('Rewrite')
+    q1.insert('Ruby')
+    q1.insert('Java')
+    q1.insert('C#')
+    q1.insert(12)
     q1.delete()
     q1.delete()
-    print('after first insertion ')
-    print(q1.isEmpty())
-    print(q1.isFull())
-    print('\n new Operation \n')
     q1.delete()
+    q1.delete()
+    q1.insert('Jai singh')
+    print('--------\n')
+    q1.display()
+    q1.peek()
     pass
 if __name__ == '__main__':
     main()
